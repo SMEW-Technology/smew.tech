@@ -16,10 +16,10 @@ export default function Footer() {
             <section className="footer-section">
                 <div className="container">
                     <figure className="footer-leftimage mb-0">
-                        <img src="/src/assets/images/footer-leftimage.png" alt="" className="img-fluid"/>
+                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/footer-leftimage.png" alt="" className="img-fluid"/>
                     </figure>
                     <figure className="mb-0 about-leftcircle">
-                        <img src="/src/assets/images/about-rightcircle.png" alt="" className="img-fluid"/>
+                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/about-rightcircle.png" alt="" className="img-fluid"/>
                     </figure>
                     <div className="middle-portion">
                         <div className="row">
@@ -27,14 +27,14 @@ export default function Footer() {
                                 <div className="first-column">
                                     <Link href="/">
                                         <figure className="footer-logo">
-                                            <img src="/src/assets/images/logo.png" className="img-fluid" alt=""/>
+                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/logo.png" className="img-fluid" alt=""/>
                                         </figure>
                                     </Link>
                                     <p className="text-size-18 footer-text">Speed, Scale, Global Presence, Quality and Compliance.</p>
                                     <div className="lower">
                                         <div className="lower-content">
                                             <figure className="icon">
-                                                <img src="/src/assets/images/footer-emailicon.png" alt="" className="img-fluid"/>
+                                                <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/footer-emailicon.png" alt="" className="img-fluid"/>
                                             </figure>
                                             <div className="content">
                                                 <span className="text-white">Email us:</span>
@@ -121,10 +121,10 @@ export default function Footer() {
                         </div>
                     </div>
                     <figure className="footer-dotimage mb-0">
-                        <img src="/src/assets/images/footer-dotimage.png" alt="" className="img-fluid"/>
+                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/footer-dotimage.png" alt="" className="img-fluid"/>
                     </figure>
                     <figure className="footer-leftlayer mb-0">
-                        <img src="/src/assets/images/footer-leftlayer.png" alt="" className="img-fluid"/>
+                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/footer-leftlayer.png" alt="" className="img-fluid"/>
                     </figure>
                 </div>
             </section>

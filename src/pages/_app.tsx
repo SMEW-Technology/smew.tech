@@ -24,18 +24,6 @@ export default function App({Component, pageProps}: AppProps) {
                 <Header/>
                 <Component {...pageProps} />
                 <Footer/>
-
-                <Script type="text/javascript" src="/src/assets/js/jquery-3.6.0.min.js" strategy={"beforeInteractive"}/>
-                <Script type="text/javascript" src="/src/assets/js/bootstrap.min.js"/>
-                <Script type="text/javascript" src="/src/assets/js/video_link.js" strategy={"beforeInteractive"}/>
-                <Script type="text/javascript" src="/src/assets/js/video.js" strategy={"beforeInteractive"}/>
-                <Script type="text/javascript" src="/src/assets/js/counter.js"/>
-                <Script type="text/javascript" src="/src/assets/js/owl.carousel.js" strategy={"beforeInteractive"}/>
-                <Script type="text/javascript" src="/src/assets/js/custom-carousel.js"/>
-                <Script type="text/javascript" src="/src/assets/js/custom.js"/>
-                <Script type="text/javascript" src="/src/assets/js/animation_links.js"/>
-                <Script type="text/javascript" src="/src/assets/js/custom.js"/>
-
             </main>
         </>
     );

@@ -10,25 +10,25 @@ export default class MyDocument extends Document<DocumentProps> {
                     <title>SMEW Technology</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
                     <meta charSet="utf-8"/>
-                    <link rel="icon" href="/src/public/static/favicon/favicon.ico" sizes="any" />
-                    <link rel="apple-touch-icon" sizes="144x144" href="/src/public/static/favicon/apple-touch-icon.png"/>
-                    <link rel="icon" type="image/png" sizes="32x32" href="/src/public/static/favicon/favicon-32x32.png"/>
-                    <link rel="icon" type="image/png" sizes="16x16" href="/src/public/static/favicon/favicon-16x16.png"/>
-                    <link rel="manifest" href="/src/public/static/favicon/site.webmanifest"/>
-                    <link rel="mask-icon" href="/src/public/static/favicon/safari-pinned-tab.svg" color="#f08832"/>
+                    <link rel="icon" href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/public/static/favicon/favicon.ico" sizes="any" />
+                    <link rel="apple-touch-icon" sizes="144x144" href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/public/static/favicon/apple-touch-icon.png"/>
+                    <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/public/static/favicon/favicon-32x32.png"/>
+                    <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/public/static/favicon/favicon-16x16.png"/>
+                    <link rel="manifest" href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/public/static/favicon/site.webmanifest"/>
+                    <link rel="mask-icon" href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/public/static/favicon/safari-pinned-tab.svg" color="#f08832"/>
                     <meta name="msapplication-TileColor" content="#b91d47"/>
                     <meta name="theme-color" content="#ffffff"/>
 
-                    <link href="/src/styles/bootstrap/bootstrap.min.css" rel="stylesheet"/>
-                    <link rel="stylesheet" href="/src/assets/js/bootstrap.min.js"/>
+                    <link href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/styles/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+                    <link rel="stylesheet" href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/bootstrap.min.js"/>
                     <link rel="stylesheet"
                           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-                    <link href="/src/styles/css/style.css" rel="stylesheet" type="text/css"/>
-                    <link href="/src/styles/css/custom-style.css" rel="stylesheet" type="text/css"/>
-                    <link href="/src/styles/css/special-classes.css" rel="stylesheet" type="text/css"/>
-                    <link href="/src/styles/css/responsive.css" rel="stylesheet" type="text/css"/>
-                    <link rel="stylesheet" href="/src/styles/css/owl.carousel.min.css"/>
-                    <link rel="stylesheet" href="/src/styles/css/owl.theme.default.min.css"/>
+                    <link href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/styles/css/style.css" rel="stylesheet" type="text/css"/>
+                    <link href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/styles/css/custom-style.css" rel="stylesheet" type="text/css"/>
+                    <link href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/styles/css/special-classes.css" rel="stylesheet" type="text/css"/>
+                    <link href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/styles/css/responsive.css" rel="stylesheet" type="text/css"/>
+                    <link rel="stylesheet" href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/styles/css/owl.carousel.min.css"/>
+                    <link rel="stylesheet" href="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/styles/css/owl.theme.default.min.css"/>
                     <link rel="stylesheet"
                           href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"/>
                     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
@@ -37,16 +37,16 @@ export default class MyDocument extends Document<DocumentProps> {
                 <noscript>You need to enable JavaScript to run this app.</noscript>
                 <Main/>
                 <NextScript/>
-                <script src="/src/assets/js/jquery-3.6.0.min.js"></script>
-                <script src="/src/assets/js/bootstrap.min.js"></script>
-                <script src="/src/assets/js/video_link.js"></script>
-                <script src="/src/assets/js/video.js"></script>
-                <script src="/src/assets/js/counter.js"></script>
-                <script src="/src/assets/js/owl.carousel.js"></script>
-                <script src="/src/assets/js/custom-carousel.js"></script>
-                <script src="/src/assets/js/custom.js"></script>
-                <script src="/src/assets/js/animation_links.js"></script>
-                <script src="/src/assets/js/animation.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/jquery-3.6.0.min.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/bootstrap.min.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/video_link.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/video.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/counter.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/owl.carousel.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/custom-carousel.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/custom.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/animation_links.js"></script>
+                <script src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/js/animation.js"></script>
                 </body>
             </Html>
         );

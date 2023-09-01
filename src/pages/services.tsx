@@ -6,7 +6,7 @@ export default function Services() {
         <>
             <section className="servicepage-section service-section">
                 <figure className="service-dotimage mb-0">
-                    <img src="/src/assets/images/service-dotimage.png" alt="" className="img-fluid"/>
+                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-dotimage.png" alt="" className="img-fluid"/>
                 </figure>
                 <div className="container">
                     <div className="row">
@@ -16,7 +16,7 @@ export default function Services() {
                                 <h2>ACCOMPANY CLIENTS THROUGH EVERY STEP OF THE DIGITAL JOURNEY.</h2>
                                 <p>Our solutions are tailored to help overcome any business IT challenge.</p>
                                 <figure className="offer-circleimage mb-0">
-                                    <img src="/src/assets/images/offer-circleimage.png" alt="" className="img-fluid"/>
+                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-circleimage.png" alt="" className="img-fluid"/>
                                 </figure>
                             </div>
                         </div>
@@ -27,7 +27,7 @@ export default function Services() {
                                 <div className="item">
                                     <div className="service-box box-mb">
                                         <figure className="service-marketicon">
-                                            <img src="/src/assets/images/service-producticon.png" alt=""
+                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-producticon.png" alt=""
                                                  className="img-fluid"/>
                                         </figure>
                                         <h4>ODC</h4>
@@ -38,7 +38,7 @@ export default function Services() {
                                 <div className="item">
                                     <div className="service-box box-mb">
                                         <figure className="service-producticon">
-                                            <img src="/src/assets/images/service-producticon.png" alt=""
+                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-producticon.png" alt=""
                                                  className="img-fluid"/>
                                         </figure>
                                         <h4>MOBILE DEVELOPMENT</h4>
@@ -49,7 +49,7 @@ export default function Services() {
                                 <div className="item">
                                     <div className="service-box">
                                         <figure className="service-designicon">
-                                            <img src="/src/assets/images/service-producticon.png" alt=""
+                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-producticon.png" alt=""
                                                  className="img-fluid"/>
                                         </figure>
                                         <h4>WEB DEVELOPMENT</h4>
@@ -61,7 +61,7 @@ export default function Services() {
                                 <div className="item">
                                     <div className="service-box">
                                         <figure className="service-dataicon">
-                                            <img src="/src/assets/images/service-dataicon.png" alt="" className="img-fluid"/>
+                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-dataicon.png" alt="" className="img-fluid"/>
                                         </figure>
                                         <h4>Data Analysis</h4>
                                         <p className="text-size-18">Nostrum exercitationem ae ullam corporis suscipit
@@ -71,7 +71,7 @@ export default function Services() {
                                 <div className="item">
                                     <div className="service-box">
                                         <figure className="service-dataicon">
-                                            <img src="/src/assets/images/service-dataicon.png" alt=""
+                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-dataicon.png" alt=""
                                                  className="img-fluid"/>
                                         </figure>
                                         <h4>DATA LABELS</h4>

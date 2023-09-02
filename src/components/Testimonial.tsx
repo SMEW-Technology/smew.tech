@@ -8,26 +8,26 @@ export default function Testimonial() {
                     <div className="col-lg-5 col-md-12 col-sm-12 col-12">
                         <div className="testimonial_wrapper position-relative" data-aos="fade-right">
                             <figure className="service-rightcircle mb-0">
-                                <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-rightcircle.png" alt="" className="img-fluid"/>
+                                <img src="./images/service-rightcircle.png" alt="" className="img-fluid"/>
                             </figure>
                             <div className="circle_wrapper position-relative">
                                 <div className="center-circle">
                                     <figure className="testimonial-centerimage mb-0">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-centerimage.png" alt=""
+                                        <img src="./images/testimonial-centerimage.png" alt=""
                                              className="img-fluid"/>
                                     </figure>
                                 </div>
                                 <figure className="testimonial-image1 position-absolute mb-0">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-image1.png" alt="" className="img-fluid"/>
+                                    <img src="./images/testimonial-image1.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <figure className="testimonial-image2 position-absolute mb-0">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-image2.png" alt="" className="img-fluid"/>
+                                    <img src="./images/testimonial-image2.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <figure className="testimonial-image3 position-absolute mb-0">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-image3.png" alt="" className="img-fluid"/>
+                                    <img src="./images/testimonial-image3.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <figure className="testimonial-image4 position-absolute mb-0">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-image4.png" alt="" className="img-fluid"/>
+                                    <img src="./images/testimonial-image4.png" alt="" className="img-fluid"/>
                                 </figure>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ export default function Testimonial() {
                                                 <div className="content">
                                                     <div className="circle">
                                                         <figure className="testimonial-quote mb-0">
-                                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-quote.png" alt=""
+                                                            <img src="./images/testimonial-quote.png" alt=""
                                                                  className="img-fluid"/>
                                                         </figure>
                                                     </div>
@@ -71,7 +71,7 @@ export default function Testimonial() {
                                                 <div className="content">
                                                     <div className="circle">
                                                         <figure className="testimonial-quote mb-0">
-                                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-quote.png" alt=""
+                                                            <img src="./images/testimonial-quote.png" alt=""
                                                                  className="img-fluid"/>
                                                         </figure>
                                                     </div>
@@ -92,7 +92,7 @@ export default function Testimonial() {
                                                 <div className="content">
                                                     <div className="circle">
                                                         <figure className="testimonial-quote mb-0">
-                                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-quote.png" alt=""
+                                                            <img src="./images/testimonial-quote.png" alt=""
                                                                  className="img-fluid"/>
                                                         </figure>
                                                     </div>
@@ -113,7 +113,7 @@ export default function Testimonial() {
                                                 <div className="content">
                                                     <div className="circle">
                                                         <figure className="testimonial-quote mb-0">
-                                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-quote.png" alt=""
+                                                            <img src="./images/testimonial-quote.png" alt=""
                                                                  className="img-fluid"/>
                                                         </figure>
                                                     </div>
@@ -134,7 +134,7 @@ export default function Testimonial() {
                                                 <div className="content">
                                                     <div className="circle">
                                                         <figure className="testimonial-quote mb-0">
-                                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/testimonial-quote.png" alt=""
+                                                            <img src="./images/testimonial-quote.png" alt=""
                                                                  className="img-fluid"/>
                                                         </figure>
                                                     </div>

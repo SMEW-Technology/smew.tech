@@ -1,5 +1,5 @@
 import {addDoc, collection, Timestamp} from "firebase/firestore/lite";
-import {database} from "@/utils/FirebaseConfig";
+import {database} from "./FirebaseConfig";
 
 // @ts-ignore
 export const ContactForm = async ({ name, email, comment }) => {

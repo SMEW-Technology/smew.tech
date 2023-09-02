@@ -11,7 +11,7 @@ export default function NavBar() {
                     <nav className="navbar navbar-expand-lg navbar-light">
                         <Link className="navbar-brand" href="/">
                             <figure className="mb-0 banner-logo">
-                                <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/logo.png" alt="" className="img-fluid"/>
+                                <img src="./images/logo.png" alt="" className="img-fluid"/>
                             </figure>
                         </Link>
                         <button className="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -44,7 +44,7 @@ export default function NavBar() {
 
                                 <figure className="nav-phoneimage mb-0">
                                     <a  href="/contact">
-                                        <img className="img-fluid" src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/footer-emailicon.png" alt=""/>
+                                        <img className="img-fluid" src="./images/footer-emailicon.png" alt=""/>
                                     </a>
                                 </figure>
                                 <div className="content">

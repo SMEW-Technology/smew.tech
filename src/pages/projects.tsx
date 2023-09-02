@@ -5,7 +5,7 @@ export default function Projects() {
        <>
            <section className="project-section projectpage-section">
                <figure className="offer-toplayer mb-0">
-                   <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-toplayer.png" alt="" className="img-fluid" />
+                   <img src="./images/offer-toplayer.png" alt="" className="img-fluid" />
                </figure>
                <div className="container">
                    <div className="row">
@@ -16,7 +16,7 @@ export default function Projects() {
                                <p>Dursus mal suada faci lisis lorem ipsum dolarorit more ame ion consectetur elit vesti at bulum nec
                                    odio aea the dumm recreo that dolocons.</p>
                                <figure className="offer-circleimage mb-0">
-                                   <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-circleimage.png" alt="" className="img-fluid" />
+                                   <img src="./images/offer-circleimage.png" alt="" className="img-fluid" />
                                </figure>
                            </div>
                        </div>
@@ -27,7 +27,7 @@ export default function Projects() {
                                <div className="case-box overlay">
                                    <div className="overlay-image">
                                        <figure className="image mb-0">
-                                           <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image2.png" alt="" className="" />
+                                           <img src="./images/case-image2.png" alt="" className="" />
                                        </figure>
                                    </div>
                                    <div className="content">
@@ -42,7 +42,7 @@ export default function Projects() {
                                <div className="case-box2 case-box overlay">
                                    <div className="overlay-image">
                                        <figure className="image mb-0">
-                                           <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image3.png" alt="" className="" />
+                                           <img src="./images/case-image3.png" alt="" className="" />
                                        </figure>
                                    </div>
                                    <div className="content">
@@ -57,7 +57,7 @@ export default function Projects() {
                                <div className="case-box overlay">
                                    <div className="overlay-image">
                                        <figure className="image mb-0">
-                                           <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image4.png" alt="" className="" />
+                                           <img src="./images/case-image4.png" alt="" className="" />
                                        </figure>
                                    </div>
                                    <div className="content">
@@ -75,7 +75,7 @@ export default function Projects() {
                                    <div className="case-box1 case-box overlay">
                                        <div className="overlay-image">
                                            <figure className="image mb-0">
-                                               <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image1.png" alt="" className="" />
+                                               <img src="./images/case-image1.png" alt="" className="" />
                                            </figure>
                                        </div>
                                        <div className="content">
@@ -90,7 +90,7 @@ export default function Projects() {
                                    <div className="case-box overlay">
                                        <div className="overlay-image">
                                            <figure className="image mb-0">
-                                               <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image6.png" alt="" className="" />
+                                               <img src="./images/case-image6.png" alt="" className="" />
                                            </figure>
                                        </div>
                                        <div className="content">
@@ -105,7 +105,7 @@ export default function Projects() {
                                    <div className="case-box overlay">
                                        <div className="overlay-image">
                                            <figure className="image mb-0">
-                                               <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image5.png" alt="" className="" />
+                                               <img src="./images/case-image5.png" alt="" className="" />
                                            </figure>
                                        </div>
                                        <div className="content">
@@ -120,7 +120,7 @@ export default function Projects() {
                                    <div className="case-box overlay">
                                        <div className="overlay-image">
                                            <figure className="image mb-0">
-                                               <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image7.png" alt="" className=""/>
+                                               <img src="./images/case-image7.png" alt="" className=""/>
                                            </figure>
                                        </div>
                                        <div className="content">
@@ -135,7 +135,7 @@ export default function Projects() {
                                    <div className="case-box2 case-box overlay">
                                        <div className="overlay-image">
                                            <figure className="image mb-0">
-                                               <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image8.png" alt="" className=""/>
+                                               <img src="./images/case-image8.png" alt="" className=""/>
                                            </figure>
                                        </div>
                                        <div className="content">
@@ -150,7 +150,7 @@ export default function Projects() {
                                    <div className="case-box overlay">
                                        <div className="overlay-image">
                                            <figure className="image mb-0">
-                                               <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image9.png" alt="" className=""/>
+                                               <img src="./images/case-image9.png" alt="" className=""/>
                                            </figure>
                                        </div>
                                        <div className="content">
@@ -165,7 +165,7 @@ export default function Projects() {
                                    <div className="case-box overlay">
                                        <div className="overlay-image">
                                            <figure className="image mb-0">
-                                               <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image10.png" alt="" className=""/>
+                                               <img src="./images/case-image10.png" alt="" className=""/>
                                            </figure>
                                        </div>
                                        <div className="content">
@@ -181,7 +181,7 @@ export default function Projects() {
                    </div>
                </div>
                <figure className="offer-bottomlayer mb-0">
-                   <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-bottomlayer.png" alt="" className="img-fluid" />
+                   <img src="./images/offer-bottomlayer.png" alt="" className="img-fluid" />
                </figure>
            </section>
            <section className="aboutoffer-section">
@@ -198,12 +198,12 @@ export default function Projects() {
                    <div className="achievement_wrapper">
                        <div className="row">
                            <figure className="offer-circleimage mb-0">
-                               <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-circleimage.png" alt="" className="img-fluid"/>
+                               <img src="./images/offer-circleimage.png" alt="" className="img-fluid"/>
                            </figure>
                            <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                                <div className="achievement-box box1">
                                    <figure className="icon achievement-icon">
-                                       <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-clienticon.png" alt="" className="img-fluid"/>
+                                       <img src="./images/achievement-clienticon.png" alt="" className="img-fluid"/>
                                    </figure>
                                    <div className="wrapper">
                                        <div className="number">
@@ -217,7 +217,7 @@ export default function Projects() {
                            <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                                <div className="achievement-box box2">
                                    <figure className="icon1 achievement-icon">
-                                       <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-projecticon.png" alt="" className="img-fluid"/>
+                                       <img src="./images/achievement-projecticon.png" alt="" className="img-fluid"/>
                                    </figure>
                                    <div className="wrapper">
                                        <div className="number">
@@ -231,7 +231,7 @@ export default function Projects() {
                            <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                                <div className="achievement-box box3">
                                    <figure className="icon achievement-icon">
-                                       <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-teamicon.png" alt="" className="img-fluid"/>
+                                       <img src="./images/achievement-teamicon.png" alt="" className="img-fluid"/>
                                    </figure>
                                    <div className="wrapper">
                                        <div className="number">
@@ -245,7 +245,7 @@ export default function Projects() {
                            <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                                <div className="achievement-box box4">
                                    <figure className="icon1 achievement-icon">
-                                       <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-awardicon.png" alt="" className="img-fluid"/>
+                                       <img src="./images/achievement-awardicon.png" alt="" className="img-fluid"/>
                                    </figure>
                                    <div className="wrapper">
                                        <div className="number">

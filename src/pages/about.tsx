@@ -1,12 +1,12 @@
 import React from "react";
-import Testimonial from "@/components/Testimonial";
+import Testimonial from "../components/Testimonial";
 
 export default function About() {
     return (
         <>
             <section className="aboutus-section">
                 <figure className="offer-toplayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-toplayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-toplayer.png" alt="" className="img-fluid"/>
                 </figure>
 
                 <div className="container">
@@ -14,10 +14,10 @@ export default function About() {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-2">
                             <div className="about_wrapper">
                                 <figure className="mb-0 aboutus-image1">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/about-image1.jpg" alt="" className=""/>
+                                    <img src="./images/about-image1.jpg" alt="" className=""/>
                                 </figure>
                                 <figure className="mb-0 aboutus-image2">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/about-image2.jpg" alt="" className="img-fluid"/>
+                                    <img src="./images/about-image2.jpg" alt="" className="img-fluid"/>
                                 </figure>
                                 <div className="image-circle">
                                     <div className="years">
@@ -26,7 +26,7 @@ export default function About() {
                                         <span className="text-white text">Years of Experience</span>
                                     </div>
                                     <figure className="mb-0 about-imagecircle">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/about-imagecircle.png" alt="" className=""/>
+                                        <img src="./images/about-imagecircle.png" alt="" className=""/>
                                     </figure>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ export default function About() {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-1">
                             <div className="service_content position-relative" data-aos="fade-right">
                                 <figure className="service-rightcircle mb-0">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-rightcircle.png" alt="" className="img-fluid"/>
+                                    <img src="./images/service-rightcircle.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <h6>About Us</h6>
                                 <h2>Innovate Solution For Success</h2>
@@ -51,7 +51,7 @@ export default function About() {
                 </div>
 
                 <figure className="offer-bottomlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-bottomlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-bottomlayer.png" alt="" className="img-fluid"/>
                 </figure>
             </section>
 
@@ -143,11 +143,11 @@ export default function About() {
 
             <section className="testimonial-section  aboutus-section">
                 <figure className="offer-toplayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-toplayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-toplayer.png" alt="" className="img-fluid"/>
                 </figure>
                 <Testimonial/>
                 <figure className="offer-bottomlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-bottomlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-bottomlayer.png" alt="" className="img-fluid"/>
                 </figure>
             </section>
 
@@ -167,12 +167,12 @@ export default function About() {
                     <div className="achievement_wrapper">
                         <div className="row">
                             <figure className="offer-circleimage mb-0">
-                                <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-circleimage.png" alt="" className="img-fluid"/>
+                                <img src="./images/offer-circleimage.png" alt="" className="img-fluid"/>
                             </figure>
                             <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                                 <div className="achievement-box box1">
                                     <figure className="icon achievement-icon">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-clienticon.png" alt="" className="img-fluid"/>
+                                        <img src="./images/achievement-clienticon.png" alt="" className="img-fluid"/>
                                     </figure>
                                     <div className="wrapper">
                                         <div className="number">
@@ -186,7 +186,7 @@ export default function About() {
                             <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                                 <div className="achievement-box box2">
                                     <figure className="icon1 achievement-icon">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-projecticon.png" alt="" className="img-fluid"/>
+                                        <img src="./images/achievement-projecticon.png" alt="" className="img-fluid"/>
                                     </figure>
                                     <div className="wrapper">
                                         <div className="number">
@@ -200,7 +200,7 @@ export default function About() {
                             <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                                 <div className="achievement-box box3">
                                     <figure className="icon achievement-icon">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-teamicon.png" alt="" className="img-fluid"/>
+                                        <img src="./images/achievement-teamicon.png" alt="" className="img-fluid"/>
                                     </figure>
                                     <div className="wrapper">
                                         <div className="number">
@@ -214,7 +214,7 @@ export default function About() {
                             <div className="col-lg-3 col-md-3 col-sm-6 col-6">
                                 <div className="achievement-box box4">
                                     <figure className="icon1 achievement-icon">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-awardicon.png" alt="" className="img-fluid"/>
+                                        <img src="./images/achievement-awardicon.png" alt="" className="img-fluid"/>
                                     </figure>
                                     <div className="wrapper">
                                         <div className="number">

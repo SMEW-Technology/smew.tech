@@ -5,7 +5,7 @@ export default function Offer() {
         <>
             <section className="offer-section">
                 <figure className="offer-toplayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-toplayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-toplayer.png" alt="" className="img-fluid"/>
                 </figure>
                 <div className="container">
                     <div className="row">
@@ -19,17 +19,17 @@ export default function Offer() {
                     </div>
                     <div className="row position-relative">
                         <figure className="offer-circleimage mb-0">
-                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-circleimage.png" alt="" className="img-fluid"/>
+                            <img src="./images/offer-circleimage.png" alt="" className="img-fluid"/>
                         </figure>
                         <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 article_padding">
                             <div className="offer_boxcontent">
                                 <div className="upper_portion">
                                     <figure className="mb-0">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-image1.jpg" className="article_img" alt=""/>
+                                        <img src="./images/offer-image1.jpg" className="article_img" alt=""/>
                                     </figure>
                                     <div className="image_content">
                                         <figure className="offer-icon">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-icon1.png" alt="" className="img-fluid"/>
+                                            <img src="./images/offer-icon1.png" alt="" className="img-fluid"/>
                                         </figure>
                                     </div>
                                 </div>
@@ -44,11 +44,11 @@ export default function Offer() {
                             <div className="offer_boxcontent">
                                 <div className="upper_portion">
                                     <figure className="mb-0">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-image2.jpg" className="article_img" alt=""/>
+                                        <img src="./images/offer-image2.jpg" className="article_img" alt=""/>
                                     </figure>
                                     <div className="image_content">
                                         <figure className="offer-icon offer-icon2">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-icon2.png" alt="" className="img-fluid"/>
+                                            <img src="./images/offer-icon2.png" alt="" className="img-fluid"/>
                                         </figure>
                                     </div>
                                 </div>
@@ -63,11 +63,11 @@ export default function Offer() {
                             <div className="offer_boxcontent mb-0">
                                 <div className="upper_portion">
                                     <figure className="mb-0">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-image3.jpg" className="article_img" alt=""/>
+                                        <img src="./images/offer-image3.jpg" className="article_img" alt=""/>
                                     </figure>
                                     <div className="image_content">
                                         <figure className="offer-icon">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-icon3.png" alt="" className="img-fluid"/>
+                                            <img src="./images/offer-icon3.png" alt="" className="img-fluid"/>
                                         </figure>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ export default function Offer() {
                     </div>
                 </div>
                 <figure className="offer-bottomlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-bottomlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-bottomlayer.png" alt="" className="img-fluid"/>
                 </figure>
             </section>
         </>

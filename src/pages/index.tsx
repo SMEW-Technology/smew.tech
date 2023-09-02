@@ -1,16 +1,17 @@
 import React from "react";
-import Testimonial from "@/components/Testimonial";
-import Offer from "@/components/Offer";
-import AboutUs from "@/components/AboutUs";
+import Testimonial from "../components/Testimonial";
+import Offer from "../components/Offer";
+import AboutUs from "../components/AboutUs";
+
 
 export default function Index() {
     return (<>
             <section className="service-section">
                 <figure className="service-leftlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-leftlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/service-leftlayer.png" alt="" className="img-fluid"/>
                 </figure>
                 <figure className="service-dotimage mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-dotimage.png" alt="" className="img-fluid"/>
+                    <img src="./images/service-dotimage.png" alt="" className="img-fluid"/>
                 </figure>
                 <div className="container">
                     <div className="row">
@@ -20,7 +21,7 @@ export default function Index() {
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                                         <div className="service-box box-mb">
                                             <figure className="service-marketicon">
-                                                <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-producticon.png" alt=""
+                                                <img src="./images/service-producticon.png" alt=""
                                                      className="img-fluid"/>
                                             </figure>
                                             <h4>ODC</h4>
@@ -32,7 +33,7 @@ export default function Index() {
                                         <div className="box-top">
                                             <div className="service-box box-mb">
                                                 <figure className="service-producticon">
-                                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-producticon.png" alt=""
+                                                    <img src="./images/service-producticon.png" alt=""
                                                          className="img-fluid"/>
                                                 </figure>
                                                 <h4>MOBILE DEVELOPMENT</h4>
@@ -46,7 +47,7 @@ export default function Index() {
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                                         <div className="service-box">
                                             <figure className="service-designicon">
-                                                <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-producticon.png" alt=""
+                                                <img src="./images/service-producticon.png" alt=""
                                                      className="img-fluid"/>
                                             </figure>
                                             <h4>WEB DEVELOPMENT</h4>
@@ -59,7 +60,7 @@ export default function Index() {
                                         <div className="box-top">
                                             <div className="service-box">
                                                 <figure className="service-dataicon">
-                                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-dataicon.png" alt=""
+                                                    <img src="./images/service-dataicon.png" alt=""
                                                          className="img-fluid"/>
                                                 </figure>
                                                 <h4>DATA LABELS</h4>
@@ -74,7 +75,7 @@ export default function Index() {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div className="service_content position-relative" data-aos="fade-right">
                                 <figure className="service-rightcircle mb-0">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-rightcircle.png" alt="" className="img-fluid"/>
+                                    <img src="./images/service-rightcircle.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <h6>Our Services</h6>
                                 <h2>Accompany clients through every step of the digital journey.</h2>
@@ -98,7 +99,7 @@ export default function Index() {
                     </div>
                 </div>
                 <figure className="service-rightlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-rightlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/service-rightlayer.png" alt="" className="img-fluid"/>
                 </figure>
             </section>
             {/*Offer*/}
@@ -107,23 +108,23 @@ export default function Index() {
             <section className="about-section">
                 <AboutUs/>
                 <figure className="mb-0 about-rightimage">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/about-rightimage.png" alt="" className="img-fluid"/>
+                    <img src="./images/about-rightimage.png" alt="" className="img-fluid"/>
                 </figure>
                 <figure className="mb-0 about-rightcircle">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/about-rightcircle.png" alt="" className="img-fluid"/>
+                    <img src="./images/about-rightcircle.png" alt="" className="img-fluid"/>
                 </figure>
             </section>
             {/*Achievements*/}
             <section className="achievement-section">
                 <figure className="service-rightlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-leftlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/service-leftlayer.png" alt="" className="img-fluid"/>
                 </figure>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5 col-md-12 col-sm-12 col-12">
                             <div className="achievement_content" data-aos="fade-right">
                                 <figure className="offer-circleimage mb-0">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-circleimage.png" alt="" className="img-fluid"/>
+                                    <img src="./images/offer-circleimage.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <h6>Achievements</h6>
                                 <h2>Some Number of Our Achievements</h2>
@@ -136,7 +137,7 @@ export default function Index() {
                             <div className="achievement_wrapper">
                                 <div className="achievement-box box1">
                                     <figure className="icon achievement-icon">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-clienticon.png" alt="" className="img-fluid"/>
+                                        <img src="./images/achievement-clienticon.png" alt="" className="img-fluid"/>
                                     </figure>
                                     <div className="wrapper">
                                         <h3>200+</h3>
@@ -145,7 +146,7 @@ export default function Index() {
                                 </div>
                                 <div className="achievement-box box2">
                                     <figure className="icon1 achievement-icon">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-projecticon.png" alt="" className="img-fluid"/>
+                                        <img src="./images/achievement-projecticon.png" alt="" className="img-fluid"/>
                                     </figure>
                                     <div className="wrapper">
                                         <h3>500+</h3>
@@ -154,7 +155,7 @@ export default function Index() {
                                 </div>
                                 <div className="achievement-box box3">
                                     <figure className="icon achievement-icon">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/achievement-teamicon.png" alt="" className="img-fluid"/>
+                                        <img src="./images/achievement-teamicon.png" alt="" className="img-fluid"/>
                                     </figure>
                                     <div className="wrapper">
                                         <div className="number number1">
@@ -169,13 +170,13 @@ export default function Index() {
                     </div>
                 </div>
                 <figure className="service-leftlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-rightlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/service-rightlayer.png" alt="" className="img-fluid"/>
                 </figure>
             </section>
             {/*Project*/}
             <section className="project-section">
                 <figure className="offer-toplayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-toplayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-toplayer.png" alt="" className="img-fluid"/>
                 </figure>
                 <div className="container-fluid">
                     <div className="row">
@@ -186,7 +187,7 @@ export default function Index() {
                                 <p>Showcasing projects we've develop, authorized by our customers to be publicly
                                     displayed on our website.</p>
                                 <figure className="offer-circleimage mb-0">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-circleimage.png" alt="" className="img-fluid"/>
+                                    <img src="./images/offer-circleimage.png" alt="" className="img-fluid"/>
                                 </figure>
                             </div>
                         </div>
@@ -197,7 +198,7 @@ export default function Index() {
                                 <div className="case-box1 case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image1.png" alt="" className=""/>
+                                            <img src="./images/case-image1.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -212,7 +213,7 @@ export default function Index() {
                                 <div className="case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image2.png" alt="" className=""/>
+                                            <img src="./images/case-image2.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -227,7 +228,7 @@ export default function Index() {
                                 <div className="case-box2 case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image3.png" alt="" className=""/>
+                                            <img src="./images/case-image3.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -242,7 +243,7 @@ export default function Index() {
                                 <div className="case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image4.png" alt="" className=""/>
+                                            <img src="./images/case-image4.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -257,7 +258,7 @@ export default function Index() {
                                 <div className="case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image5.png" alt="" className=""/>
+                                            <img src="./images/case-image5.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -272,7 +273,7 @@ export default function Index() {
                                 <div className="case-box1 case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image6.png" alt="" className=""/>
+                                            <img src="./images/case-image6.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -287,7 +288,7 @@ export default function Index() {
                                 <div className="case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image7.png" alt="" className=""/>
+                                            <img src="./images/case-image7.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -302,7 +303,7 @@ export default function Index() {
                                 <div className="case-box2 case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image8.png" alt="" className=""/>
+                                            <img src="./images/case-image8.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -317,7 +318,7 @@ export default function Index() {
                                 <div className="case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image9.png" alt="" className=""/>
+                                            <img src="./images/case-image9.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -332,7 +333,7 @@ export default function Index() {
                                 <div className="case-box overlay">
                                     <div className="overlay-image">
                                         <figure className="image mb-0">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/case-image10.png" alt="" className=""/>
+                                            <img src="./images/case-image10.png" alt="" className=""/>
                                         </figure>
                                     </div>
                                     <div className="content">
@@ -347,17 +348,17 @@ export default function Index() {
                     </div>
                 </div>
                 <figure className="offer-bottomlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-bottomlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-bottomlayer.png" alt="" className="img-fluid"/>
                 </figure>
             </section>
             {/*Testimonial*/}
             <section className="testimonial-section position-relative">
                 <figure className="service-leftlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-leftlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/service-leftlayer.png" alt="" className="img-fluid"/>
                 </figure>
                 <Testimonial/>
                 <figure className="service-rightlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/service-rightlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/service-rightlayer.png" alt="" className="img-fluid"/>
                 </figure>
             </section>
         </>

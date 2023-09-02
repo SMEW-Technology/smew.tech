@@ -1,5 +1,5 @@
 import React, {useRef, useState} from "react";
-import {ContactForm} from "@/utils/ContactForm";
+import {ContactForm} from "../components/ContactForm";
 import {useRouter} from "next/router";
 
 export default function Contact() {
@@ -31,7 +31,7 @@ export default function Contact() {
         <>
             <section className="contact-section">
                 <figure className="offer-toplayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-toplayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-toplayer.png" alt="" className="img-fluid"/>
                 </figure>
                 <div className="container">
                     <div className="row">
@@ -42,7 +42,7 @@ export default function Contact() {
                                 <div className="contact-box">
                                     <div className="box-image">
                                         <figure className="contact-location">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/contact-location.png" alt="" className="img-fluid"/>
+                                            <img src="./images/contact-location.png" alt="" className="img-fluid"/>
                                         </figure>
                                     </div>
                                     <div className="box-content">
@@ -54,7 +54,7 @@ export default function Contact() {
                                 <div className="contact-box">
                                     <div className="box-image">
                                         <figure className="contact-email">
-                                            <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/contact-email.png" alt="" className="img-fluid"/>
+                                            <img src="./images/contact-email.png" alt="" className="img-fluid"/>
                                         </figure>
                                     </div>
                                     <div className="box-content">
@@ -70,7 +70,7 @@ export default function Contact() {
                         <div className="col-lg-7 col-md-12 col-sm-12 col-12">
                             <div className="need-section">
                                 <figure className="offer-circleimage mb-0">
-                                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-circleimage.png" alt="" className="img-fluid"/>
+                                    <img src="./images/offer-circleimage.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <div className="need_content">
                                     <h6 className="text-white">Write to us</h6>
@@ -104,7 +104,7 @@ export default function Contact() {
                                         </div>
                                     </form>
                                     <figure className="faq-image mb-0">
-                                        <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/faq-image.png" alt="" className="img-fluid"/>
+                                        <img src="./images/faq-image.png" alt="" className="img-fluid"/>
                                     </figure>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <figure className="offer-bottomlayer mb-0">
-                    <img src="https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main/src/assets/images/offer-bottomlayer.png" alt="" className="img-fluid"/>
+                    <img src="./images/offer-bottomlayer.png" alt="" className="img-fluid"/>
                 </figure>
             </section>
         </>

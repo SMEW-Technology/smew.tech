@@ -1,6 +1,6 @@
 const nextConfig = {
     trailingSlash: true,
-    assetPrefix: 'https://raw.githubusercontent.com/SMEW-Technology/smew.tech/main'
+    assetPrefix: './'
 };
 
 module.exports = nextConfig;

@@ -1,5 +1,5 @@
 const nextConfig = {
-    trailingSlash: true,
+    trailingSlash: false,
     assetPrefix: './'
 };
 

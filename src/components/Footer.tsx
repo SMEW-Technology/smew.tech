@@ -8,7 +8,7 @@ export default function Footer() {
     const submitContact = async (e) => {
         e.preventDefault();
         console.log(e.target[0].value);
-        router.push('/smew.tech/contact?email=' + e.target[0].value)
+        router.push('/contact?email=' + e.target[0].value)
     };
 
     return (
@@ -51,15 +51,15 @@ export default function Footer() {
                                     <ul className="list-unstyled mb-0">
                                         <li><Link href="/"
                                                   className="text-size-18 text text-decoration-none">Home</Link></li>
-                                        <li><Link href="/smew.tech/about"
+                                        <li><Link href="/about"
                                                   className="text-size-18 text text-decoration-none">About</Link></li>
-                                        <li><Link href="/smew.tech/services"
+                                        <li><Link href="/services"
                                                   className="text-size-18 text text-decoration-none">Services</Link>
                                         </li>
-                                        <li><Link href="/smew.tech/projects"
+                                        <li><Link href="/projects"
                                                   className="text-size-18 text text-decoration-none">Projects</Link>
                                         </li>
-                                        <li><Link href="/smew.tech/contact"
+                                        <li><Link href="/contact"
                                                   className="text-size-18 text text-decoration-none">Contact</Link></li>
                                     </ul>
                                 </div>
@@ -68,12 +68,12 @@ export default function Footer() {
                                 <div className="links">
                                     <h4 className="heading text-white">Our Services</h4>
                                     <ul className="list-unstyled mb-0">
-                                        <li><Link href="/smew.tech/services" className="text-size-18 text text-decoration-none">ODC</Link></li>
+                                        <li><Link href="/services" className="text-size-18 text text-decoration-none">ODC</Link></li>
                                         <li><Link href="/"
                                                   className="text-size-18 text text-decoration-none">Mobile</Link>
                                         </li>
-                                        <li><Link href="/smew.tech/projects" className="text-size-18 text text-decoration-none">Website</Link></li>
-                                        <li><Link href="/smew.tech/contact"
+                                        <li><Link href="/projects" className="text-size-18 text text-decoration-none">Website</Link></li>
+                                        <li><Link href="/contact"
                                                   className="text-size-18 text text-decoration-none">Data Labels</Link></li>
                                     </ul>
                                 </div>

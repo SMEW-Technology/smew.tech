@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17840119-fa02-4919-8373-02ce89d7bf14" name="Changes" comment="fixed resource">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/banners/HomeBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/banners/HomeBanner.tsx" afterDir="false" />

@@ -28,29 +28,29 @@ export default function NavBar() {
                                     <a className="nav-link" href="/">Home</a>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/about' ? "active" : ""}`}>
-                                    <a className="nav-link" href="/smew.tech/about">About</a>
+                                    <a className="nav-link" href="/about">About</a>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/services' ? "active" : ""}`}>
-                                    <a className="nav-link" href="/smew.tech/services">Services</a>
+                                    <a className="nav-link" href="/services">Services</a>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/projects' ? "active" : ""}`}>
-                                    <a className="nav-link" href="/smew.tech/projects">Projects</a>
+                                    <a className="nav-link" href="/projects">Projects</a>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/contact' ? "active" : ""}`}>
-                                    <a className="nav-link" href="/smew.tech/contact">Contact</a>
+                                    <a className="nav-link" href="/contact">Contact</a>
                                 </li>
                             </ul>
                             <div className="last_list">
 
                                 <figure className="nav-phoneimage mb-0">
-                                    <a  href="/smew.tech/contact">
+                                    <a  href="/contact">
                                         <img className="img-fluid" src="./images/footer-emailicon.png" alt=""/>
                                     </a>
                                 </figure>
                                 <div className="content">
                                     <p className="text-size-18 text-white">Contact now:</p>
                                     <a className="text-decoration-none last_list_atag"
-                                       href="/smew.tech/contact">contact@smew.tech</a>
+                                       href="/contact">contact@smew.tech</a>
                                 </div>
                             </div>
                         </div>

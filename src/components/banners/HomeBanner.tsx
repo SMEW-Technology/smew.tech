@@ -33,7 +33,7 @@ export default function HomeBanner() {
                                 <p>We are committed to delivering world-class technology solutions for complex business
                                     opportunities and challenges, leveraging from our five most compelling strengths of<br/>
                                     <b>Speed, Scale, Global Presence, Quality and Compliance.</b></p>
-                                <a className="get_started button2 text-white text-decoration-none" href="/smew.tech/contact">Contact
+                                <a className="get_started button2 text-white text-decoration-none" href="/contact">Contact
                                     Us
                                     <figure className="mb-0">
                                         <img src="./images/button-arrow.png" alt="" className="img-fluid"/>

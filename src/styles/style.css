@@ -16,7 +16,7 @@
     --e-global-color-very-light-gray-mostly-white:#f9f9f9;
 }
 
-body{
+body, body * {
     font-family: 'Rajdhani', sans-serif;
 }
 

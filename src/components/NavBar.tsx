@@ -25,32 +25,32 @@ export default function NavBar() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav">
                                 <li className={`nav-item ${router.pathname === '/' ? "active" : ""}`}>
-                                    <a className="nav-link" href="/">Home</a>
+                                    <Link className="nav-link" href="/">Home</Link>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/about' ? "active" : ""}`}>
-                                    <a className="nav-link" href="/about">About</a>
+                                    <Link className="nav-link" href="/about">About</Link>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/services' ? "active" : ""}`}>
-                                    <a className="nav-link" href="/services">Services</a>
+                                    <Link className="nav-link" href="/services">Services</Link>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/projects' ? "active" : ""}`}>
-                                    <a className="nav-link" href="/projects">Projects</a>
+                                    <Link className="nav-link" href="/projects">Projects</Link>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/contact' ? "active" : ""}`}>
-                                    <a className="nav-link" href="/contact">Contact</a>
+                                    <Link className="nav-link" href="/contact">Contact</Link>
                                 </li>
                             </ul>
                             <div className="last_list">
 
                                 <figure className="nav-phoneimage mb-0">
-                                    <a  href="/contact">
+                                    <Link  href="/contact">
                                         <img className="img-fluid" src="./images/footer-emailicon.png" alt=""/>
-                                    </a>
+                                    </Link>
                                 </figure>
                                 <div className="content">
                                     <p className="text-size-18 text-white">Contact now:</p>
-                                    <a className="text-decoration-none last_list_atag"
-                                       href="/contact">contact@smew.tech</a>
+                                    <Link className="text-decoration-none last_list_atag"
+                                       href="/contact">contact@smew.tech</Link>
                                 </div>
                             </div>
                         </div>

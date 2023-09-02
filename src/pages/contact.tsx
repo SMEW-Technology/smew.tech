@@ -1,6 +1,7 @@
 import React, {useRef, useState} from "react";
 import {ContactForm} from "../components/ContactForm";
 import {useRouter} from "next/router";
+import Link from "next/link";
 
 export default function Contact() {
     const router = useRouter()
@@ -60,8 +61,8 @@ export default function Contact() {
                                     <div className="box-content">
                                         <h4 className="heading">Email:</h4>
                                         <p>
-                                            <a href="mailto:contact@smew.tech"
-                                               className="text-decoration-none">contact@smew.tech</a>
+                                            <Link href="mailto:contact@smew.tech"
+                                               className="text-decoration-none">contact@smew.tech</Link>
                                         </p>
                                     </div>
                                 </div>

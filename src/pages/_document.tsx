@@ -27,16 +27,16 @@ export default class MyDocument extends Document<DocumentProps> {
                 <noscript>You need to enable JavaScript to run this app.</noscript>
                 <Main/>
                 <NextScript/>
-                <script src="../lib/jquery-3.6.0.min.js"></script>
-                <script src="../lib/bootstrap.min.js"></script>
-                <script src="../lib/video_link.js"></script>
-                <script src="../lib/video.js"></script>
-                <script src="../lib/counter.js"></script>
-                <script src="../lib/owl.carousel.js"></script>
-                <script src="../lib/custom-carousel.js"></script>
-                <script src="../lib/custom.js"></script>
-                <script src="../lib/animation_links.js"></script>
-                <script src="../lib/animation.js"></script>
+                <script src="./js/jquery-3.6.0.min.js"></script>
+                <script src="./js/bootstrap.min.js"></script>
+                <script src="./js/video_link.js"></script>
+                <script src="./js/video.js"></script>
+                <script src="./js/counter.js"></script>
+                <script src="./js/owl.carousel.js"></script>
+                <script src="./js/custom-carousel.js"></script>
+                <script src="./js/custom.js"></script>
+                <script src="./js/animation_links.js"></script>
+                <script src="./js/animation.js"></script>
                 </body>
             </Html>
         );

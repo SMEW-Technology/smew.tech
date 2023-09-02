@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="17840119-fa02-4919-8373-02ce89d7bf14" name="Changes" comment="fixed resource">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/animation_links.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/animation_links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/custom-carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom-carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jquery-3.6.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/owl.carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/video_link.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/video_link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +40,11 @@
       <recent name="E:\SMEW\github\smew.tech\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SMEW\github\smew.tech\public\js" />
       <recent name="E:\SMEW\github\smew.tech\src\pages\about" />
       <recent name="E:\SMEW\github\smew.tech\src\pages\contract" />
       <recent name="E:\SMEW\github\smew.tech\src\pages\projects" />
       <recent name="E:\SMEW\github\smew.tech\src\pages\services" />
-      <recent name="E:\SMEW\github\smew.tech\src\components" />
     </key>
   </component>
   <component name="TaskManager">

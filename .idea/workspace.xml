@@ -5,33 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17840119-fa02-4919-8373-02ce89d7bf14" name="Changes" comment="fixed resource">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/nextjs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nextjs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/animation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/animation_links.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/animation_links.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/custom-carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom-carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/jquery-3.6.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery-3.6.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/owl.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/video_link.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/video_link.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-sitemap.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next-sitemap.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2Usc5l9LLMc2dhvgr1gJF1v3cjb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "E:/SMEW/github/smew.tech",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "E:\\SMEW\\github\\smew.tech\\node_modules\\typescript\\lib"
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "E:\\SMEW\\github\\smew.tech\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -47,8 +58,20 @@
       <recent name="E:\SMEW\github\smew.tech\src\pages\services" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17840119-fa02-4919-8373-02ce89d7bf14" name="Changes" comment="fixed resource" />
+      <created>1693731551529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693731551529</updated>
+      <workItem from="1693731554221" duration="945000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -71,7 +94,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/_document.tsx</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

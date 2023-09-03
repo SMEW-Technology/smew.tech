@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "@cloudinary/url-gen": "^1.10.2",

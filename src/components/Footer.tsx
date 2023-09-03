@@ -53,8 +53,8 @@ export default function Footer() {
                                                   className="text-size-18 text text-decoration-none">Home</a></li>
                                         <li><Link href="/about"
                                                   className="text-size-18 text text-decoration-none">About</Link></li>
-                                        <li><Link href="https://smew.tech/services"
-                                                  className="text-size-18 text text-decoration-none">Services</Link>
+                                        <li><a href="https://smew.tech/services"
+                                                  className="text-size-18 text text-decoration-none">Services</a>
                                         </li>
                                         <li><Link href="/projects"
                                                   className="text-size-18 text text-decoration-none">Projects</Link>
@@ -68,13 +68,13 @@ export default function Footer() {
                                 <div className="links">
                                     <h4 className="heading text-white">Our Services</h4>
                                     <ul className="list-unstyled mb-0">
-                                        <li><Link href="https://smew.tech/services" className="text-size-18 text text-decoration-none">ODC</Link></li>
-                                        <li><Link href="https://smew.tech/services"
-                                                  className="text-size-18 text text-decoration-none">Mobile</Link>
+                                        <li><a href="https://smew.tech/services" className="text-size-18 text text-decoration-none">ODC</a></li>
+                                        <li><a href="https://smew.tech/services"
+                                                  className="text-size-18 text text-decoration-none">Mobile</a>
                                         </li>
-                                        <li><Link href="https://smew.tech/projects" className="text-size-18 text text-decoration-none">Website</Link></li>
-                                        <li><Link href="https://smew.tech/contact"
-                                                  className="text-size-18 text text-decoration-none">Data Labels</Link></li>
+                                        <li><a href="https://smew.tech/services" className="text-size-18 text text-decoration-none">Website</a></li>
+                                        <li><a href="https://smew.tech/services"
+                                                  className="text-size-18 text text-decoration-none">Data Labels</a></li>
                                     </ul>
                                 </div>
                             </div>

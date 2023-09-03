@@ -159,7 +159,7 @@ export default function Index() {
                                     </figure>
                                     <div className="wrapper">
                                         <div className="number number1">
-                                            <h3 className="value counter">100</h3>
+                                            <h3 className="value">100</h3>
                                             <span className="plus">+</span>
                                         </div>
                                         <p className="text text-size-18 mb-0">Members</p>

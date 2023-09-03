@@ -141,7 +141,7 @@ export default function Index() {
                                     </figure>
                                     <div className="wrapper">
                                         <h3>200+</h3>
-                                        <p className="text-size-18 mb-0">Satisfied Clients</p>
+                                        <p className="text-size-18 mb-0">Clients</p>
                                     </div>
                                 </div>
                                 <div className="achievement-box box2">
@@ -150,7 +150,7 @@ export default function Index() {
                                     </figure>
                                     <div className="wrapper">
                                         <h3>500+</h3>
-                                        <p className="text-size-18 mb-0">Projects Completed</p>
+                                        <p className="text-size-18 mb-0">Projects</p>
                                     </div>
                                 </div>
                                 <div className="achievement-box box3">
@@ -162,7 +162,7 @@ export default function Index() {
                                             <h3 className="value counter">100</h3>
                                             <span className="plus">+</span>
                                         </div>
-                                        <p className="text text-size-18 mb-0">Team Members</p>
+                                        <p className="text text-size-18 mb-0">Members</p>
                                     </div>
                                 </div>
                             </div>
@@ -234,7 +234,7 @@ export default function Index() {
                                     <div className="content">
                                         <span className="text-white">Mobile</span>
                                         <h5 className="text-white">Live Shop</h5>
-                                        <p className="text-white text-size-18">Live Shopping ...</p>
+                                        <p className="text-white text-size-18">Live Shopping...</p>
                                         <i className=""></i>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@ export default function Index() {
                                     <div className="content">
                                         <span className="text-white">Website</span>
                                         <h5 className="text-white">Lebo finance</h5>
-                                        <p className="text-white text-size-18">Web3 application ...</p>
+                                        <p className="text-white text-size-18">Web3 application...</p>
                                         <i className=""></i>
                                     </div>
                                 </div>

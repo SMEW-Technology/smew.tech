@@ -31,9 +31,9 @@ export default function Projects() {
                                        </figure>
                                    </div>
                                    <div className="content">
-                                       <span className="text-white">Development</span>
-                                       <h5 className="text-white">Web Development</h5>
-                                       <p className="text-white text-size-18">Serum hic tenetur a sapiente...</p>
+                                       <span className="text-white">Mobile</span>
+                                       <h5 className="text-white">Xtatuz</h5>
+                                       <p className="text-white text-size-18">Hotel booking app...</p>
                                        <i className=""></i>
                                    </div>
                                </div>
@@ -46,9 +46,9 @@ export default function Projects() {
                                        </figure>
                                    </div>
                                    <div className="content">
-                                       <span className="text-white">Marketing</span>
-                                       <h5 className="text-white">Digital Marketing</h5>
-                                       <p className="text-white text-size-18">Terum hic tenetur a sapiente...</p>
+                                       <span className="text-white">Mobile</span>
+                                       <h5 className="text-white">Live Shop</h5>
+                                       <p className="text-white text-size-18">Live Shopping...</p>
                                        <i className=""></i>
                                    </div>
                                </div>
@@ -61,9 +61,9 @@ export default function Projects() {
                                        </figure>
                                    </div>
                                    <div className="content">
-                                       <span className="text-white">Design</span>
-                                       <h5 className="text-white">Tech Solutions</h5>
-                                       <p className="text-white text-size-18">Uerum hic tenetur a sapiente...</p>
+                                       <span className="text-white">Website</span>
+                                       <h5 className="text-white">Lebo finance</h5>
+                                       <p className="text-white text-size-18">Web3 application...</p>
                                        <i className=""></i>
                                    </div>
                                </div>
@@ -79,9 +79,9 @@ export default function Projects() {
                                            </figure>
                                        </div>
                                        <div className="content">
-                                           <span className="text-white">Design</span>
-                                           <h5 className="text-white">Business Analysis</h5>
-                                           <p className="text-white text-size-18">Rerum hic tenetur sapiente...</p>
+                                           <span className="text-white">Development</span>
+                                           <h5 className="text-white">Chat Official</h5>
+                                           <p className="text-white text-size-18">Chat Platform Financial...</p>
                                            <i className=""></i>
                                        </div>
                                    </div>
@@ -94,9 +94,9 @@ export default function Projects() {
                                            </figure>
                                        </div>
                                        <div className="content">
-                                           <span className="text-white">Technology</span>
-                                           <h5 className="text-white">Social Marketing App</h5>
-                                           <p className="text-white text-size-18">Gerum hic tenetur a sapiente..</p>
+                                           <span className="text-white">Mobile</span>
+                                           <h5 className="text-white">Enstack</h5>
+                                           <p className="text-white text-size-18">Delivery manager...</p>
                                            <i className=""></i>
                                        </div>
                                    </div>
@@ -109,9 +109,9 @@ export default function Projects() {
                                            </figure>
                                        </div>
                                        <div className="content">
-                                           <span className="text-white">Security</span>
-                                           <h5 className="text-white">Cyber Security</h5>
-                                           <p className="text-white text-size-18">Nerum hic tenetur a sapiente..</p>
+                                           <span className="text-white">Mobile</span>
+                                           <h5 className="text-white">Position Exchange</h5>
+                                           <p className="text-white text-size-18">Web3 decentralized exchanges...</p>
                                            <i className=""></i>
                                        </div>
                                    </div>
@@ -210,7 +210,7 @@ export default function Projects() {
                                            <h3 className="value counter">200</h3>
                                            <span className="plus">+</span>
                                        </div>
-                                       <p className="text-size-18 mb-0">Satisfied Clients</p>
+                                       <p className="text-size-18 mb-0">Clients</p>
                                    </div>
                                </div>
                            </div>
@@ -224,7 +224,7 @@ export default function Projects() {
                                            <h3 className="value counter">500</h3>
                                            <span className="plus">+</span>
                                        </div>
-                                       <p className="text-size-18 mb-0">Projects Completed</p>
+                                       <p className="text-size-18 mb-0">Projects</p>
                                    </div>
                                </div>
                            </div>
@@ -238,7 +238,7 @@ export default function Projects() {
                                            <h3 className="value counter">100</h3>
                                            <span className="plus">+</span>
                                        </div>
-                                       <p className="text text-size-18 mb-0">Team Members</p>
+                                       <p className="text text-size-18 mb-0">Members</p>
                                    </div>
                                </div>
                            </div>
@@ -251,7 +251,7 @@ export default function Projects() {
                                        <div className="number">
                                            <h3 className="value">2</h3>
                                        </div>
-                                       <p className="text text-size-18 mb-0">Awards Win</p>
+                                       <p className="text text-size-18 mb-0">Awards</p>
                                    </div>
                                </div>
                            </div>

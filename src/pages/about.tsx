@@ -23,7 +23,7 @@ export default function About() {
                                     <div className="years">
                                         <span className="text-white value counter">10</span>
                                         <sup className="text-white mb-0 plus">+</sup>
-                                        <span className="text-white text">Years of Experience</span>
+                                        <span className="text-white text">Years</span>
                                     </div>
                                     <figure className="mb-0 about-imagecircle">
                                         <img src="./images/about-imagecircle.png" alt="" className=""/>
@@ -179,7 +179,7 @@ export default function About() {
                                             <h3 className="value counter">200</h3>
                                             <span className="plus">+</span>
                                         </div>
-                                        <p className="text-size-18 mb-0">Satisfied Clients</p>
+                                        <p className="text-size-18 mb-0">Clients</p>
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@ export default function About() {
                                             <h3 className="value counter">500</h3>
                                             <span className="plus">+</span>
                                         </div>
-                                        <p className="text-size-18 mb-0">Projects Completed</p>
+                                        <p className="text-size-18 mb-0">Projects</p>
                                     </div>
                                 </div>
                             </div>
@@ -207,7 +207,7 @@ export default function About() {
                                             <h3 className="value counter">100</h3>
                                             <span className="plus">+</span>
                                         </div>
-                                        <p className="text text-size-18 mb-0">Team Members</p>
+                                        <p className="text text-size-18 mb-0">Members</p>
                                     </div>
                                 </div>
                             </div>
@@ -220,7 +220,7 @@ export default function About() {
                                         <div className="number">
                                             <h3 className="value">2</h3>
                                         </div>
-                                        <p className="text text-size-18 mb-0">Awards Win</p>
+                                        <p className="text text-size-18 mb-0">Awards</p>
                                     </div>
                                 </div>
                             </div>

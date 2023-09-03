@@ -17,10 +17,11 @@ export default class MyDocument extends Document<DocumentProps> {
                     <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#f08832"/>
                     <meta name="msapplication-TileColor" content="#b91d47"/>
                     <meta name="theme-color" content="#ffffff"/>
-                    <link rel="stylesheet"
-                          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-                    <link rel="stylesheet"
-                          href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"/>
+
+                    <link rel="stylesheet" href="./js/bootstrap.min.js" />
+
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"/>
                     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
                 </Head>
                 <body>

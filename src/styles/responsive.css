@@ -1204,10 +1204,10 @@ p {font-size: 14px; line-height: 20px;}
 .about-section .about_wrapper .about-image1 img {width: 305px; border-radius: 0 110px 110px 110px;}
 .about-section .about_wrapper .about-image2 {left: 0; top: 154px;}
 .about-section .about_wrapper .about-image2 img {width: 150px; border-radius: 60px 0 60px 60px}
-.about-section .about_wrapper .years {right: -120px; top: -350px;}
+.about-section .about_wrapper .years {right: -127px; top: -350px;}
 .about-section .about_wrapper .years .value {font-size: 26px; line-height: 26px;}
 .about-section .about_wrapper .years .plus {font-size: 18px; line-height: 18px;}
-.about-section .about_wrapper .years .text {padding: 0 120px;}
+.about-section .about_wrapper .years .text {padding: 0 130px;}
 .about-section .about_wrapper .about-imagecircle {right: 0;}
 .about-section .about_wrapper .about-imagecircle img {width: 90px;}
 .about-section .about_wrapper .about-dot {display: none;}
@@ -1298,7 +1298,7 @@ p {font-size: 14px; line-height: 20px;}
 .aboutoffer-section .achievement_wrapper .achievement-box {width: 140px; height: 140px; line-height: 140px;}
 .aboutoffer-section .achievement_wrapper .achievement-box .icon img {width: 54px;}
 .aboutoffer-section .achievement_wrapper .achievement-box .icon1 img {width: 40px;}
-.aboutoffer-section .achievement_wrapper .achievement-box .number {top: 72px;}
+.aboutoffer-section .achievement_wrapper .achievement-box .number {top: 52px;}
 .aboutoffer-section .achievement_wrapper .box1 {left: 14px;}
 .aboutoffer-section .achievement_wrapper .box2 {right: 4px;}
 .aboutoffer-section .achievement_wrapper .box3 {left: 14px;}

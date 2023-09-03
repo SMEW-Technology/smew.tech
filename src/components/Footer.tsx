@@ -49,8 +49,8 @@ export default function Footer() {
                                 <div className="links list-pd">
                                     <h4 className="heading text-white">Quick Links</h4>
                                     <ul className="list-unstyled mb-0">
-                                        <li><Link href="/"
-                                                  className="text-size-18 text text-decoration-none">Home</Link></li>
+                                        <li><a href="https://smew.tech/"
+                                                  className="text-size-18 text text-decoration-none">Home</a></li>
                                         <li><Link href="/about"
                                                   className="text-size-18 text text-decoration-none">About</Link></li>
                                         <li><Link href="/services"
@@ -69,7 +69,7 @@ export default function Footer() {
                                     <h4 className="heading text-white">Our Services</h4>
                                     <ul className="list-unstyled mb-0">
                                         <li><Link href="/services" className="text-size-18 text text-decoration-none">ODC</Link></li>
-                                        <li><Link href="/"
+                                        <li><Link href="/services"
                                                   className="text-size-18 text text-decoration-none">Mobile</Link>
                                         </li>
                                         <li><Link href="/projects" className="text-size-18 text text-decoration-none">Website</Link></li>

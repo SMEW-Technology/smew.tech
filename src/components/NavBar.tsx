@@ -9,11 +9,11 @@ export default function NavBar() {
             <div className="main-header">
                 <div className="container-fluid">
                     <nav className="navbar navbar-expand-lg navbar-light">
-                        <Link className="navbar-brand" href="/">
+                        <a className="navbar-brand" href="https://smew.tech/">
                             <figure className="mb-0 banner-logo">
                                 <img src="./images/logo.png" alt="" className="img-fluid"/>
                             </figure>
-                        </Link>
+                        </a>
                         <button className="navbar-toggler collapsed" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false"
@@ -25,7 +25,7 @@ export default function NavBar() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav">
                                 <li className={`nav-item ${router.pathname === '/' ? "active" : ""}`}>
-                                    <Link className="nav-link" href="/">Home</Link>
+                                    <a className="nav-link" href="https://smew.tech/">Home</a>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/about' ? "active" : ""}`}>
                                     <Link className="nav-link" href="/about">About</Link>

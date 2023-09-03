@@ -31,7 +31,7 @@ export default function NavBar() {
                                     <Link className="nav-link" href="/about">About</Link>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/services' ? "active" : ""}`}>
-                                    <Link className="nav-link" href="/services">Services</Link>
+                                    <Link className="nav-link" href="https://smew.tech/services">Services</Link>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/projects' ? "active" : ""}`}>
                                     <Link className="nav-link" href="/projects">Projects</Link>

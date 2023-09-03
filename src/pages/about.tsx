@@ -23,7 +23,7 @@ export default function About() {
                                     <div className="years">
                                         <span className="text-white value counter">10</span>
                                         <sup className="text-white mb-0 plus">+</sup>
-                                        <span className="text-white text">Years</span>
+                                        <span className="text-white text">Years of Experience</span>
                                     </div>
                                     <figure className="mb-0 about-imagecircle">
                                         <img src="./images/about-imagecircle.png" alt="" className=""/>

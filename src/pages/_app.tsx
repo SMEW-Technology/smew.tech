@@ -13,7 +13,9 @@ import '../styles/special-classes.css'
 import '../styles/responsive.css'
 import '../styles/owl.carousel.min.css'
 import '../styles/owl.theme.default.min.css'
+import "react-toastify/dist/ReactToastify.css";
 import Script from "next/script";
+import { ToastContainer } from "react-toastify"
 
 export default function App({Component, pageProps}: AppProps) {
     useEffect(() => {
@@ -29,6 +31,7 @@ export default function App({Component, pageProps}: AppProps) {
             <main>
                 <Header/>
                 <Component {...pageProps} />
+                <ToastContainer />
                 <Footer/>
 
                 <Script type="text/javascript" src="./js/jquery-3.6.0.min.js" strategy={"beforeInteractive"}/>

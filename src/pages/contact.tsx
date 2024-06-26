@@ -2,31 +2,50 @@ import React, {useRef, useState} from "react";
 import {ContactForm} from "../components/ContactForm";
 import {useRouter} from "next/router";
 import Link from "next/link";
+import { toast } from "react-toastify";
 
 export default function Contact() {
-    const router = useRouter()
-    const {email} = router.query
-    const [message, setMessage] = useState("");
-    const formRef = useRef();
-    // @ts-ignore
-    const submitContact = async (e) => {
-        e.preventDefault();
-        console.log(e.target[0].value);
-        console.log(e.target[1].value);
-        console.log(e.target[2].value);
-        const res = await ContactForm({
-            name: e.target[0].value,
-            email: e.target[1].value,
-            comment: e.target[2].value,
-        });
-        if (res == 0) {
-            setMessage("Thank you for your valuable comment!");
-            // @ts-ignore
-            formRef.current.reset();
-        } else {
-            setMessage("Something went wrong! Please try again");
-        }
+  const router = useRouter();
+  const { email } = router.query;
+  const [message, setMessage] = useState("");
+  const formRef = useRef<HTMLFormElement>(null);
+  // @ts-ignore
+  const submitContact = async (e) => {
+    e.preventDefault();
+
+    const objectParam = {
+      "entry.195424463": e.target[0].value,
+      "entry.523675412": e.target[1].value,
+      "entry.655646402": e.target[2].value,
     };
+
+    const params = new URLSearchParams();
+
+    Object.entries(objectParam).forEach(([key, value]) => {
+      params.append(key, value);
+    });
+
+    var formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSfzclPs0xYECxknJnW3NVMB-ugOFhM3Zi5p76VqMptr1nLmSA/formResponse?&submit=Submit?usp=pp_url&${params.toString()}`;
+
+    try {
+      const res = await fetch(formUrl, {
+        mode: "no-cors",
+        method: "GET",
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      });
+      if (res) {
+        formRef.current?.reset();
+        toast(
+          "Thanks for contacting us! We will be in touch with you shortly!"
+        );
+      }
+    } catch (error) {
+      toast("An error occurred, please try again later!");
+    }
+  };
 
     return (
         <>
@@ -76,7 +95,7 @@ export default function Contact() {
                                 <div className="need_content">
                                     <h6 className="text-white">Write to us</h6>
                                     <h2 className="text-white">send us a Message</h2>
-                                    <form id="contactpage" onSubmit={submitContact}>
+                                    <form id="contactpage" onSubmit={submitContact} ref={formRef}>
                                         <div className="row">
                                             <div className="col-12">
                                                 <div className="form-group mb-0">

@@ -106,7 +106,7 @@ export default function Footer() {
                                 <div className="col-lg-6 col-md-6 col-sm-12 co-12 d-md-block d-none">
                                     <div className="social-icons position-relative">
                                         <ul className="list-unstyled position-absolute">
-                                            <li><a href="" className="text-decoration-none"><i
+                                            <li><a href="https://www.facebook.com/profile.php?id=61561884150369" className="text-decoration-none"><i
                                                 className="fa-brands fa-facebook-f social-networks"></i></a></li>
                                             <li><a href="" className="text-decoration-none"><i
                                                 className="fa-brands fa-twitter social-networks"></i></a></li>

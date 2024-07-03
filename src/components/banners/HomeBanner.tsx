@@ -15,7 +15,7 @@ export default function HomeBanner() {
                         <div className="col-lg-5 col-md-12 col-sm-12 col-12" data-aos="fade-right">
                             <div className="social-icons position-relative" data-aos="fade-up">
                                 <ul className="list-unstyled position-absolute">
-                                    <li><a href="" className="text-decoration-none"><i
+                                    <li><a href="https://www.facebook.com/profile.php?id=61561884150369" className="text-decoration-none"><i
                                         className="fa-brands fa-facebook-f social-networks"></i></a></li>
                                     <li><a href="" className="text-decoration-none"><i
                                         className="fa-brands fa-twitter social-networks"></i></a></li>

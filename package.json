@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "deploy": "rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "@cloudinary/url-gen": "^1.10.2",
@@ -45,6 +45,7 @@
     "@types/jquery": "^3.5.16",
     "autoprefixer": "^10.4.14",
     "dotenv": "^16.3.1",
+    "gh-pages": "^6.3.0",
     "sass": "^1.63.6",
     "typescript": "5.1.6"
   }

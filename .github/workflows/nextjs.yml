@@ -21,17 +21,17 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: ls -al ./out
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4   # 🛠️ Sửa v3 thành v4
         with:
           name: build-artifact
-          path: './out'
+          path: ./out
           if-no-files-found: error
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4  # 🛠️ Sửa v3 thành v4
         with:
           name: build-artifact
           path: ./out

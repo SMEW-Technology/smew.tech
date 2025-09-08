@@ -27,7 +27,7 @@ export default function Footer() {
                                 <div className="first-column">
                                     <Link href="/">
                                         <figure className="footer-logo">
-                                            <img src="./images/logo.png" className="img-fluid" alt=""/>
+                                            <img src="./images/logo.png" className="img-fluid h-150 logo-resize" alt=""/>
                                         </figure>
                                     </Link>
                                     <p className="text-size-18 footer-text">Speed, Scale, Global Presence, Quality and Compliance.</p>

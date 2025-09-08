@@ -3,6 +3,51 @@ body {
 	padding:0;
 	background: repeat-x top #fff;
 }
+
+/* Logo resize styles */
+.logo-resize {
+	width: 150px !important;
+	height: 52px !important;
+}
+
+/* Case project image crop and balance */
+.case-box .overlay-image {
+	width: 357px !important;
+	height: 471px !important;
+	overflow: hidden !important;
+}
+
+.case-box .image {
+	width: 100% !important;
+	height: 100% !important;
+	margin-bottom: 0 !important;
+}
+
+.case-box .image img {
+	width: 100% !important;
+	height: 100% !important;
+	object-fit: cover !important;
+	object-position: center !important;
+}
+
+/* Ensure consistent case-box dimensions */
+.case-box {
+	width: 357px !important;
+	height: 471px !important;
+	margin-right: 30px !important;
+	position: relative !important;
+}
+
+/* Fix content positioning */
+.case-box .content {
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+	padding: 32px !important;
+	margin-top: 0 !important;
+	z-index: 2 !important;
+}
 a {
 	outline:none;
 	color:#dddddd;

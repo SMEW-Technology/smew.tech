@@ -344,6 +344,51 @@ export default function Index() {
                                     </div>
                                 </div>
                             </div>
+                            <div className="item">
+                                <div className="case-box overlay">
+                                    <div className="overlay-image">
+                                        <figure className="image mb-0">
+                                            <img src="./images/case-image11.png" alt="" className=""/>
+                                        </figure>
+                                    </div>
+                                    <div className="content">
+                                        <span className="text-white">Mobile</span>
+                                        <h5 className="text-white">Bookvn</h5>
+                                        <p className="text-white text-size-18">Book analysis...</p>
+                                        <i className=""></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="item">
+                                <div className="case-box overlay">
+                                    <div className="overlay-image">
+                                        <figure className="image mb-0">
+                                            <img src="./images/case-image12.png" alt="" className=""/>
+                                        </figure>
+                                    </div>
+                                    <div className="content">
+                                        <span className="text-white">Website</span>
+                                        <h5 className="text-white">Stream cargo</h5>
+                                        <p className="text-white text-size-18">Fulfillment, Cargo...</p>
+                                        <i className=""></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="item">
+                                <div className="case-box overlay">
+                                    <div className="overlay-image">
+                                        <figure className="image mb-0">
+                                            <img src="./images/case-image13.png" alt="" className=""/>
+                                        </figure>
+                                    </div>
+                                    <div className="content">
+                                        <span className="text-white">Website</span>
+                                        <h5 className="text-white">Automation toolkit</h5>
+                                        <p className="text-white text-size-18">Automation toolkit consisting of a visual workflow builder...</p>
+                                        <i className=""></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ export default function NavBar() {
                     <nav className="navbar navbar-expand-lg navbar-light">
                         <a className="navbar-brand" href="https://smew.tech/">
                             <figure className="mb-0 banner-logo">
-                                <img src="./images/logo.png" alt="" className="img-fluid"/>
+                                <img src="./images/logo.png" alt="" className="img-fluid logo-resize"/>
                             </figure>
                         </a>
                         <button className="navbar-toggler collapsed" type="button" data-toggle="collapse"

@@ -1,6 +1,9 @@
 import React from "react";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Offer() {
+    const { t } = useLanguage();
+
     return (
         <>
             <section className="offer-section">
@@ -11,9 +14,9 @@ export default function Offer() {
                     <div className="row">
                         <div className="col-12">
                             <div className="offer_content" data-aos="fade-up">
-                                <h6>OUR CORE VALUES IN ACTION</h6>
-                                <h2>Our Philosophy: Technology for Business</h2>
-                                <p>At SMEW Tech, we don't just code—we architect business solutions. Our philosophy is that technology must stem from a deep understanding of your challenges and strategic goals. We believe technology is truly powerful only when it solves real problems, creates competitive advantages, and drives sustainable growth.</p>
+                                <h6>{t('values.subtitle')}</h6>
+                                <h2>{t('values.title')}</h2>
+                                <p>{t('values.description')}</p>
                             </div>
                         </div>
                     </div>
@@ -35,8 +38,8 @@ export default function Offer() {
                                 </div>
                                 <div className="lower_portion_wrapper">
                                     <div className="lower_portion">
-                                        <h4 className="mb-0">Innovation Focused on Effectiveness</h4>
-                                        <p className="text-size-16">We apply new technologies not to follow trends, but to find the most effective solutions to your business challenges.</p>
+                                        <h4 className="mb-0">{t('values.innovation.title')}</h4>
+                                        <p className="text-size-16">{t('values.innovation.description')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -55,8 +58,8 @@ export default function Offer() {
                                 </div>
                                 <div className="lower_portion_wrapper">
                                     <div className="lower_portion">
-                                        <h4 className="mb-0">Quality for Business Goals</h4>
-                                        <p className="text-size-16">Quality products are not just bug-free—they are stable, secure, and directly contribute to your revenue and cost objectives.</p>
+                                        <h4 className="mb-0">{t('values.quality.title')}</h4>
+                                        <p className="text-size-16">{t('values.quality.description')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -75,8 +78,8 @@ export default function Offer() {
                                 </div>
                                 <div className="lower_portion_wrapper">
                                     <div className="lower_portion">
-                                        <h4 className="mb-0">Customer-Centric Strategy</h4>
-                                        <p className="text-size-16">We listen to understand, consult to optimize, and partner as an integral part of your company.</p>
+                                        <h4 className="mb-0">{t('values.customer.title')}</h4>
+                                        <p className="text-size-16">{t('values.customer.description')}</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,8 +1,11 @@
 import React from "react";
 import NavBar from "../../components/NavBar";
 import Link from "next/link";
+import { useLanguage } from "../../contexts/LanguageContext";
 
 export default function HomeBanner() {
+    const { t } = useLanguage();
+
     return (
         <div className="banner_outer">
             <NavBar/>
@@ -29,12 +32,10 @@ export default function HomeBanner() {
                                 <figure className="banner-line mb-0">
                                     <img src="./images/banner-line.png" alt="" className="img-fluid"/>
                                 </figure>
-                                <h6 className="text-white">EMPOWERING DIGITAL TRANSFORMATION</h6>
-                                <h1 className="text-white">Technology for Business</h1>
-                                <p>At SMEW Tech, we are not just developers—we are business solution architects. We believe technology is most powerful when it solves real problems, creates competitive advantages, and drives sustainable growth. Every line of code we write, every solution we build is aimed at one goal: Your business success.<br/>
-                                    <b>Speed, Scale, Global Presence, Quality and Compliance.</b></p>
-                                <Link className="get_started button2 text-white text-decoration-none" href="/contact">Contact
-                                    Us
+                                <h6 className="text-white">{t('banner.subtitle')}</h6>
+                                <h1 className="text-white">{t('banner.title')}</h1>
+                                <p dangerouslySetInnerHTML={{ __html: t('banner.description') }}></p>
+                                <Link className="get_started button2 text-white text-decoration-none" href="/contact">{t('banner.cta')}
                                     <figure className="mb-0">
                                         <img src="./images/button-arrow.png" alt="" className="img-fluid"/>
                                     </figure>

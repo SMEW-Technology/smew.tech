@@ -1,9 +1,12 @@
 import React from "react";
 import {useRouter} from "next/router";
 import Link from "next/link";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function NavBar() {
     const router = useRouter()
+    const { t } = useLanguage();
+
     return (
         <header className="header">
             <div className="main-header">
@@ -25,19 +28,19 @@ export default function NavBar() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav">
                                 <li className={`nav-item ${router.pathname === '/' ? "active" : ""}`}>
-                                    <a className="nav-link" href="https://smew.tech/">Home</a>
+                                    <a className="nav-link" href="https://smew.tech/">{t('nav.home')}</a>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/about' ? "active" : ""}`}>
-                                    <Link className="nav-link" href="/about">About</Link>
+                                    <Link className="nav-link" href="/about">{t('nav.about')}</Link>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/services' ? "active" : ""}`}>
-                                    <a className="nav-link" href="https://smew.tech/services">Services</a>
+                                    <a className="nav-link" href="https://smew.tech/services">{t('nav.services')}</a>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/projects' ? "active" : ""}`}>
-                                    <Link className="nav-link" href="/projects">Projects</Link>
+                                    <Link className="nav-link" href="/projects">{t('nav.projects')}</Link>
                                 </li>
                                 <li className={`nav-item ${router.pathname === '/contact' ? "active" : ""}`}>
-                                    <Link className="nav-link" href="/contact">Contact</Link>
+                                    <Link className="nav-link" href="/contact">{t('nav.contact')}</Link>
                                 </li>
                             </ul>
                             <div className="last_list">
@@ -48,7 +51,7 @@ export default function NavBar() {
                                     </Link>
                                 </figure>
                                 <div className="content">
-                                    <p className="text-size-18 text-white">Contact now:</p>
+                                    <p className="text-size-18 text-white">{t('nav.contactNow')}</p>
                                     <Link className="text-decoration-none last_list_atag"
                                        href="/contact">contact@smew.tech</Link>
                                 </div>

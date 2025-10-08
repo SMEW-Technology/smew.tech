@@ -1,7 +1,9 @@
 import React from "react";
 import NavBar from "../../components/NavBar";
+import { useLanguage } from "../../contexts/LanguageContext";
 
 export default function ProjectBanner() {
+    const { t } = useLanguage();
 
     return (
         <div className="sub-banner sub-banner2">
@@ -17,14 +19,14 @@ export default function ProjectBanner() {
                                 <figure className="project-rightcircle service-rightcircle mb-0">
                                     <img src="./images/service-rightcircle.png" alt="" className="img-fluid" />
                                 </figure>
-                                <h1 className="text-white">Our Projects</h1>
-                                <p>Proof of Capability Through Real Projects</p>
+                                <h1 className="text-white">{t('nav.projects')}</h1>
+                                <p>{t('projects.title')}</p>
                                 <div className="box">
-                                    <span className="mb-0">Home</span>
+                                    <span className="mb-0">{t('nav.home')}</span>
                                     <figure className="mb-0 arrow">
                                         <img src="./images/button-arrow.png" alt="" className="img-fluid"/>
                                     </figure>
-                                    <span className="mb-0 box_span">Projects</span>
+                                    <span className="mb-0 box_span">{t('nav.projects')}</span>
                                 </div>
                             </div>
                         </div>

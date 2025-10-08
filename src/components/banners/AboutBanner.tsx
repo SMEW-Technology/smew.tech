@@ -1,7 +1,10 @@
 import React from "react";
 import NavBar from "../../components/NavBar";
+import { useLanguage } from "../../contexts/LanguageContext";
 
 export default function AboutBanner() {
+    const { t } = useLanguage();
+
     return (
         <div className="sub-banner sub-banner1">
             <figure className="sub-bannerleftlayer mb-0">
@@ -16,14 +19,14 @@ export default function AboutBanner() {
                                 <figure className="about-rightcircle service-rightcircle mb-0">
                                     <img src="./images/service-rightcircle.png" alt="" className="img-fluid"/>
                                 </figure>
-                                <h1 className="text-white">About Us</h1>
-                                <p>Building the Digital Future - Empowering Digital Transformation</p>
+                                <h1 className="text-white">{t('nav.about')}</h1>
+                                <p>{t('about.title')} - {t('banner.subtitle')}</p>
                                 <div className="box">
-                                    <span className="mb-0">Home</span>
+                                    <span className="mb-0">{t('nav.home')}</span>
                                     <figure className="mb-0 arrow">
                                         <img src="./images/button-arrow.png" alt="" className="img-fluid"/>
                                     </figure>
-                                    <span className="mb-0 box_span">About</span>
+                                    <span className="mb-0 box_span">{t('nav.about')}</span>
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,295 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "contactNow": "Contact now:"
+  },
+  "banner": {
+    "title": "Technology for Business",
+    "subtitle": "EMPOWERING DIGITAL TRANSFORMATION",
+    "description": "At SMEW Tech, we are not just developers—we are business solution architects. We believe technology is most powerful when it solves real problems, creates competitive advantages, and drives sustainable growth. Every line of code we write, every solution we build is aimed at one goal: Your business success.<br/><b>Speed, Scale, Global Presence, Quality and Compliance.</b>",
+    "cta": "Contact Us"
+  },
+  "about": {
+    "title": "Building the Digital Future",
+    "subtitle": "About us",
+    "mission": "Our Mission",
+    "missionText": "We are committed to providing advanced, flexible, and efficient technology solutions that help clients optimize operations, enhance competitive capabilities, and achieve exceptional growth in the digital era.",
+    "vision": "Our Vision",
+    "visionText": "By 2030, SMEW Tech aims to become one of the leading technology companies in the region, a symbol of innovation, creativity, and quality, bringing Vietnam's technology products to the world stage.",
+    "description": "With over 10 years of experience in the global market, SMEW Technology has empowered digital transformation for businesses worldwide across various industries: Healthcare, BFSI, Communications, Media and Services, Logistics and Transportation, Consumer Packaged Goods, Public Sector, and Blockchain.",
+    "yearsOfExperience": "Years of Experience"
+  },
+  "services": {
+    "title": "Comprehensive Technology Solutions",
+    "subtitle": "Our Services",
+    "description": "Strategic solutions tailored to overcome any business IT challenge and drive sustainable growth. We don't just provide services—we architect business solutions.",
+    "odc": {
+      "title": "Strategic Development Center (ODC)",
+      "description": "Not just outsourcing—strategic team expansion with 35%-60% cost savings. Dedicated, culturally aligned teams integrated into your core processes.",
+      "listItem": "Strategic Development Center (ODC) - Not just outsourcing, but strategic team expansion"
+    },
+    "mobile": {
+      "title": "MOBILE APP DEVELOPMENT",
+      "description": "Building apps that are not just beautiful but optimized for conversion rates and enhanced user engagement. iOS, Android, Flutter, React Native.",
+      "listItem": "Mobile App Development - Beautiful interfaces optimized for conversion"
+    },
+    "web": {
+      "title": "WEB DEVELOPMENT",
+      "description": "Building powerful, scalable web platforms that operate efficiently, reduce costs, and are ready for future growth. E-learning, e-commerce, Fintech, Web3.",
+      "listItem": "Web Development - Powerful platforms built to scale"
+    },
+    "dataLabeling": {
+      "title": "DATA LABELING",
+      "description": "Providing highly accurate input data as a solid foundation for your AI models to make smarter, more effective business decisions. Data annotation, HITL, Computer Vision.",
+      "listItem": "Data Labeling - Precise data for intelligent AI decisions"
+    }
+  },
+  "values": {
+    "title": "Our Philosophy: Technology for Business",
+    "subtitle": "OUR CORE VALUES IN ACTION",
+    "description": "Living our philosophy of Technology for Business",
+    "innovation": {
+      "title": "Innovation Focused on Effectiveness",
+      "description": "We apply new technologies not to follow trends, but to find the most effective solutions to your business challenges."
+    },
+    "quality": {
+      "title": "Quality for Business Goals",
+      "description": "Quality products are not just bug-free—they must be stable, secure, and directly contribute to your revenue and cost objectives."
+    },
+    "customer": {
+      "title": "Customer-Centric Strategy",
+      "description": "We listen to understand, consult to optimize, and partner as an integral part of your company."
+    },
+    "transparency": {
+      "title": "Transparency in All Processes",
+      "description": "You will always know where your project stands, what the progress is, and every decision is discussed openly."
+    },
+    "collaboration": {
+      "title": "Collaboration to Create Value",
+      "description": "We work closely with clients because we believe the best solutions come from collective strength."
+    }
+  },
+  "projects": {
+    "title": "Proof of Capability Through Real Projects",
+    "subtitle": "RECENT PROJECTS",
+    "description": "With over 500 completed projects for more than 200 clients, SMEW Tech is confident in transforming ideas into reality. Here are select projects we've developed, authorized by our customers to be publicly displayed.",
+    "successStoriesSubtitle": "Success Stories",
+    "successStoriesTitle": "How We Create Difference",
+    "successStoriesDescription": "Going deeper into specific projects to show how SMEW Tech solves problems and creates real value for clients.",
+    "case1": {
+      "title": "Project 1: Xtatuz - Hotel Booking App in Thailand",
+      "challenge": "Challenge:",
+      "challengeText": "Building a competitive, user-friendly booking platform for the vibrant tourism market.",
+      "solution": "Solution:",
+      "solutionText": "SMEW Tech developed a cross-platform mobile application with an intuitive interface, intelligent search and payment system, integrated maps, and user reviews.",
+      "results": "Results:",
+      "resultsText": "Helped Xtatuz attract thousands of users in a short time, grew revenue, and received positive feedback on the app experience."
+    },
+    "case2": {
+      "title": "Project 2: Position Exchange - Web3 Decentralized Exchange",
+      "challenge": "Challenge:",
+      "challengeText": "Building a secure, transparent, and high-performance trading platform on blockchain.",
+      "solution": "Solution:",
+      "solutionText": "Our team deployed complex smart contracts, integrated digital wallets, and optimized trading protocols to minimize gas costs.",
+      "results": "Results:",
+      "resultsText": "The platform processes millions of USD in daily trading volume, confirming SMEW Tech's deep expertise in Web3 and Blockchain."
+    },
+    "items": {
+      "xtatuz": {
+        "category": "Mobile",
+        "name": "Xtatuz",
+        "description": "Hotel booking app..."
+      },
+      "liveShop": {
+        "category": "Mobile",
+        "name": "Live Shop",
+        "description": "Live Shopping..."
+      },
+      "leboFinance": {
+        "category": "Website",
+        "name": "Lebo finance",
+        "description": "Web3 application..."
+      },
+      "chatOfficial": {
+        "category": "Development",
+        "name": "Chat Official",
+        "description": "Chat Platform Financial..."
+      },
+      "enstack": {
+        "category": "Mobile",
+        "name": "Enstack",
+        "description": "Delivery manager..."
+      },
+      "positionExchange": {
+        "category": "Mobile",
+        "name": "Position Exchange",
+        "description": "Web3 decentralized exchanges..."
+      },
+      "lexor": {
+        "category": "Website",
+        "name": "Lexor",
+        "description": "Platform Salon..."
+      },
+      "network91": {
+        "category": "Website",
+        "name": "91.com.vn",
+        "description": "Traffic social network..."
+      },
+      "tiamo": {
+        "category": "Mobile",
+        "name": "Tiamo",
+        "description": "Vietnamobile social..."
+      },
+      "web3Lottery": {
+        "category": "Development",
+        "name": "Web3 Lottery",
+        "description": "Web3 Lottery..."
+      },
+      "bookvn": {
+        "category": "Mobile",
+        "name": "Bookvn",
+        "description": "Book analysis..."
+      },
+      "streamCargo": {
+        "category": "Website",
+        "name": "Stream cargo",
+        "description": "Fulfillment, Cargo..."
+      },
+      "automationToolkit": {
+        "category": "Website",
+        "name": "Automation toolkit",
+        "description": "Automation toolkit consisting of a visual workflow builder..."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Empowering Digital Transformation. Technology for Business.",
+    "email": "Email us:",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "moreQuestions": "More questions?",
+    "getInTouch": "Get in touch below",
+    "contactCTA": "Ready to start your project with SMEW Tech? Contact us today!",
+    "emailPlaceholder": "Enter Email Address:",
+    "contactNow": "Contact Now",
+    "copyright": "Copyright ©2025 SMEW.tech All Rights Reserved | Address: Group 2, Cau Giay Ward, Hanoi City, Vietnam"
+  },
+  "achievements": {
+    "title": "Numbers That Speak for Themselves",
+    "subtitle": "Our Achievements",
+    "description": "Our accomplishments stand as a testament to our commitment to quality, demonstrated through the enduring partnerships we uphold with both longstanding and new customers.",
+    "clients": "Clients",
+    "projects": "Projects",
+    "members": "Members",
+    "awards": "Awards"
+  },
+  "technology": {
+    "title": "Technologies We Use",
+    "subtitle": "Technology Platform",
+    "description": "We constantly update and apply the most powerful technologies to create optimal solutions.",
+    "languages": "Programming Languages",
+    "languagesContent": "JavaScript, Python, Java, Golang, Rust, PHP, Swift, Kotlin, TypeScript",
+    "frameworks": "Platforms & Frameworks",
+    "frameworksFrontend": "Frontend:",
+    "frameworksFrontendContent": "NextJS, NestJS, ReactJS, AngularJS, Vue.js",
+    "frameworksBackend": "Backend:",
+    "frameworksBackendContent": "Node.js, Django, Laravel, Spring Boot, Go",
+    "frameworksMobile": "Mobile:",
+    "frameworksMobileContent": "React Native, Flutter, Native (iOS, Android)",
+    "databases": "Databases & Cloud",
+    "databasesLabel": "Databases:",
+    "databasesContent": "MongoDB, PostgreSQL, MySQL, Firebase, Redis",
+    "cloudLabel": "Cloud Platforms:",
+    "cloudContent": "AWS, Google Cloud Platform (GCP), Microsoft Azure",
+    "web3": "Web3 & Blockchain",
+    "web3Content": "Solidity, Rust, Ethereum, Solana, Binance Smart Chain, Smart Contracts"
+  },
+  "workflow": {
+    "title": "Optimized Project Implementation Process",
+    "subtitle": "Our Professional Workflow",
+    "description": "We believe a clear workflow is the key to success. At SMEW Tech, we apply a 6-phase working model.",
+    "discovery": "Discovery & Analysis",
+    "discoveryDescription": "Listen, clarify ideas, goals, and project requirements. Research market and competitors.",
+    "design": "UI/UX Design",
+    "designDescription": "Build wireframes and prototypes. Design modern, user-friendly interfaces optimized for user experience.",
+    "development": "Development & Programming",
+    "developmentDescription": "Engineering team programs features. Apply Agile/Scrum methodology to ensure timeline.",
+    "testing": "Testing",
+    "testingDescription": "Comprehensive testing across multiple devices and scenarios to detect and fix bugs, ensuring stable product operation.",
+    "deployment": "Deployment & Handover",
+    "deploymentDescription": "Deploy product to production environment. Handover source code and detailed documentation.",
+    "maintenance": "Maintenance & Support",
+    "maintenanceDescription": "Monitor and ensure system operates stably post-launch. Provide technical support and upgrade packages."
+  },
+  "whyChoose": {
+    "title": "Your Technology Partner for Sustainable Growth",
+    "subtitle": "Why Choose SMEW Tech",
+    "description": "We are more than a service provider—we are your dedicated partner, committed to listening, supporting, and helping you achieve your goals.",
+    "experience": {
+      "title": "International Experience",
+      "description": "Over 10 years working with global partners, deeply understanding different markets and industries."
+    },
+    "team": {
+      "title": "Expert Team",
+      "description": "Talented engineers, developers, and design specialists always updated with the latest technologies."
+    },
+    "cost": {
+      "title": "Optimal Costs",
+      "description": "Competitive solutions with significant budget savings, especially our ODC model."
+    },
+    "qualityAssurance": {
+      "title": "Top Quality",
+      "description": "Rigorous quality management processes at every project stage ensure the highest standards."
+    }
+  },
+  "contact": {
+    "bannerTitle": "Contact Us",
+    "bannerDescription": "Thank you for your interest with us. Please complete the form below and we will get in touch with you shortly.",
+    "breadcrumbHome": "Home",
+    "breadcrumbContact": "Contact",
+    "subtitle": "Contact Info",
+    "title": "Get in Touch",
+    "locationLabel": "Location:",
+    "locationAddress": "No.51 Cau Giay street, Dich Vong Ward, Cau Giay District, Hanoi City, Vietnam.",
+    "emailLabel": "Email:",
+    "formSubtitle": "Write to us",
+    "formTitle": "send us a Message",
+    "namePlaceholder": "Your Name:",
+    "emailPlaceholder": "Your Email:",
+    "messagePlaceholder": "Message",
+    "sendButton": "Send Now",
+    "successMessage": "Thanks for contacting us! We will be in touch with you shortly!",
+    "errorMessage": "An error occurred, please try again later!"
+  },
+  "testimonials": {
+    "subtitle": "TESTIMONIALS",
+    "title": "What Our Customers Have To Say",
+    "happyClient": "Happy Client",
+    "previous": "Previous",
+    "next": "Next",
+    "testimonial1": {
+      "text": "We collaborated with SMEW Technology to build a software system for managing course and affiliate sales on TikTok. They delivered a product that exceeded our expectations. The user-friendly interface and powerful functionalities have helped us manage courses and sales more effectively. We are highly satisfied with the professionalism and dedication of the SMEW Technology team.",
+      "name": "Mr.Linh"
+    },
+    "testimonial2": {
+      "text": "SMEW Technology worked with us to develop a hotel booking application system for Thailand. They demonstrated an in-depth understanding of our requirements and provided optimal solutions. The result is a beautiful and easy-to-use hotel booking app with many useful features. We highly appreciate the professionalism and commitment of the SMEW Technology team.",
+      "name": "Mr.Hoa"
+    },
+    "testimonial3": {
+      "text": "SMEW Technology performed exceptionally in building the Live stream app and find friends system in Japan. They fully met our complex requirements and delivered an outstanding product. We are highly satisfied with the performance and features of the application and thank the SMEW Technology team for their enthusiastic support.",
+      "name": "Yuusuke akinaga"
+    },
+    "testimonial4": {
+      "text": "SMEW Technology provided us with an excellent solution for the decentralized exchange crypto and Blockchain layer 1 software system. They demonstrated high expertise and innovation in building this product. Modern technology and superior security have enabled us to perform transactions safely and efficiently. We are highly satisfied with the results and commendable collaboration with SMEW Technology.",
+      "name": "Mr.Quy"
+    },
+    "testimonial5": {
+      "text": "SMEW Technology delivered a fantastic internal Chat application solution for us. The system has improved internal communication efficiency in our company. The user-friendly interface and flexible features have created a conducive environment for exchanging information and ideas. We highly value the SMEW Technology team for their enthusiasm and professionalism in providing a solution for us.",
+      "name": "Aqeel Abbas Khan"
+    }
+  }
+}

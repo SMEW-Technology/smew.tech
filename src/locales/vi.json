@@ -1,0 +1,295 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "services": "Dịch vụ",
+    "projects": "Dự án",
+    "contact": "Liên hệ",
+    "contactNow": "Liên hệ ngay:"
+  },
+  "banner": {
+    "title": "Công nghệ vì Kinh doanh",
+    "subtitle": "KIẾN TẠO TƯƠNG LAI SỐ",
+    "description": "Tại SMEW Tech, chúng tôi không chỉ là những người lập trình—chúng tôi là những kiến trúc sư giải pháp kinh doanh. Chúng tôi tin rằng công nghệ chỉ thực sự mạnh mẽ khi nó giải quyết được vấn đề thực tế, tạo ra lợi thế cạnh tranh và thúc đẩy tăng trưởng bền vững. Mọi dòng mã chúng tôi viết, mọi giải pháp chúng tôi xây dựng đều hướng đến một mục tiêu duy nhất: Thành công về mặt kinh doanh của bạn.<br/><b>Tốc độ, Quy mô, Hiện diện Toàn cầu, Chất lượng và Tuân thủ.</b>",
+    "cta": "Liên hệ ngay"
+  },
+  "about": {
+    "title": "Kiến tạo tương lai số",
+    "subtitle": "Về chúng tôi",
+    "mission": "Sứ mệnh của chúng tôi",
+    "missionText": "Chúng tôi cam kết cung cấp các giải pháp công nghệ tiên tiến, linh hoạt và hiệu quả, giúp khách hàng tối ưu hóa vận hành, nâng cao năng lực cạnh tranh và đạt được những bước tăng trưởng vượt bậc trong kỷ nguyên số.",
+    "vision": "Tầm nhìn của chúng tôi",
+    "visionText": "Đến năm 2030, SMEW Tech đặt mục tiêu trở thành một trong những công ty công nghệ hàng đầu khu vực, là biểu tượng của sự đổi mới, sáng tạo và chất lượng, mang những sản phẩm công nghệ của Việt Nam vươn tầm thế giới.",
+    "description": "Với hơn 10 năm kinh nghiệm trên thị trường toàn cầu, SMEW Technology đã thúc đẩy chuyển đổi số cho các doanh nghiệp trên toàn thế giới trong nhiều ngành: Y tế, Ngân hàng Tài chính, Truyền thông, Dịch vụ truyền thông, Vận tải Logistics, Hàng tiêu dùng, Khu vực công và Blockchain.",
+    "yearsOfExperience": "Năm kinh nghiệm"
+  },
+  "services": {
+    "title": "Các giải pháp công nghệ toàn diện",
+    "subtitle": "Dịch vụ của chúng tôi",
+    "description": "Giải pháp chiến lược được tùy chỉnh để vượt qua mọi thách thức IT trong kinh doanh và thúc đẩy tăng trưởng bền vững. Chúng tôi không chỉ cung cấp dịch vụ—chúng tôi kiến tạo giải pháp kinh doanh.",
+    "odc": {
+      "title": "Trung tâm phát triển chiến lược (ODC)",
+      "description": "Không chỉ là gia công—là mở rộng đội ngũ chiến lược với tiết kiệm chi phí 35%-60%. Đội ngũ chuyên biệt, phù hợp văn hóa được tích hợp vào quy trình cốt lõi của bạn.",
+      "listItem": "Trung tâm phát triển chiến lược (ODC) - Không chỉ gia công, mà là mở rộng đội ngũ chiến lược"
+    },
+    "mobile": {
+      "title": "PHÁT TRIỂN ỨNG DỤNG DI ĐỘNG",
+      "description": "Xây dựng ứng dụng không chỉ đẹp mà còn được tối ưu hóa cho tỷ lệ chuyển đổi và tăng cường sự gắn kết của người dùng. iOS, Android, Flutter, React Native.",
+      "listItem": "Phát triển ứng dụng di động - Giao diện đẹp được tối ưu hóa chuyển đổi"
+    },
+    "web": {
+      "title": "PHÁT TRIỂN WEB",
+      "description": "Kiến tạo các nền tảng web mạnh mẽ, có khả năng mở rộng, vận hành hiệu quả, giảm chi phí và sẵn sàng cho sự tăng trưởng trong tương lai. E-learning, E-commerce, Fintech, Web3.",
+      "listItem": "Phát triển Web - Nền tảng mạnh mẽ được xây dựng để mở rộng"
+    },
+    "dataLabeling": {
+      "title": "GÁN NHÃN DỮ LIỆU",
+      "description": "Cung cấp dữ liệu đầu vào chính xác tuyệt đối, là nền tảng vững chắc giúp các mô hình AI của bạn đưa ra quyết định kinh doanh thông minh và hiệu quả hơn. Gán nhãn dữ liệu, HITL, Computer Vision.",
+      "listItem": "Gán nhãn dữ liệu - Dữ liệu chính xác cho quyết định AI thông minh"
+    }
+  },
+  "values": {
+    "title": "Triết lý của chúng tôi: Công nghệ vị Kinh doanh",
+    "subtitle": "GIÁ TRỊ CỐT LÕI SỐNG ĐỘNG",
+    "description": "Sống theo triết lý Công nghệ vì Kinh doanh",
+    "innovation": {
+      "title": "Đổi mới tập trung vào hiệu quả",
+      "description": "Chúng tôi áp dụng công nghệ mới không phải để theo trào lưu, mà để tìm ra lời giải hiệu quả nhất cho bài toán kinh doanh của bạn."
+    },
+    "quality": {
+      "title": "Chất lượng vì mục tiêu kinh doanh",
+      "description": "Sản phẩm chất lượng không chỉ là ít lỗi, mà phải là sản phẩm ổn định, an toàn và trực tiếp đóng góp vào mục tiêu doanh thu, chi phí của khách hàng."
+    },
+    "customer": {
+      "title": "Lấy khách hàng làm trung tâm chiến lược",
+      "description": "Chúng tôi lắng nghe để thấu hiểu, tư vấn để tối ưu và đồng hành như một bộ phận của chính công ty bạn."
+    },
+    "transparency": {
+      "title": "Minh bạch trong mọi quy trình",
+      "description": "Bạn sẽ luôn biết dự án của mình đang ở đâu, tiến độ như thế nào, và mọi quyết định đều được thảo luận công khai."
+    },
+    "collaboration": {
+      "title": "Hợp tác để tạo ra giá trị",
+      "description": "Chúng tôi làm việc chặt chẽ với khách hàng vì tin rằng những giải pháp tốt nhất đến từ sức mạnh tập thể."
+    }
+  },
+  "projects": {
+    "title": "Minh chứng năng lực qua các dự án thực tế",
+    "subtitle": "DỰ ÁN GẦN ĐÂY",
+    "description": "Với hơn 500 dự án đã hoàn thành cho hơn 200 khách hàng, SMEW Tech tự tin vào khả năng chuyển hóa ý tưởng thành hiện thực. Dưới đây là các dự án được lựa chọn mà chúng tôi đã phát triển, được khách hàng ủy quyền để hiển thị công khai.",
+    "successStoriesSubtitle": "Câu chuyện thành công",
+    "successStoriesTitle": "Cách chúng tôi tạo ra sự khác biệt",
+    "successStoriesDescription": "Đi sâu vào các dự án cụ thể để cho thấy SMEW Tech giải quyết vấn đề và tạo ra giá trị thực sự cho khách hàng như thế nào.",
+    "case1": {
+      "title": "Dự án 1: Xtatuz - Ứng dụng đặt phòng khách sạn tại Thái Lan",
+      "challenge": "Thách thức:",
+      "challengeText": "Xây dựng nền tảng đặt phòng cạnh tranh, thân thiện với người dùng cho thị trường du lịch sôi động.",
+      "solution": "Giải pháp:",
+      "solutionText": "SMEW Tech phát triển ứng dụng di động đa nền tảng với giao diện trực quan, hệ thống tìm kiếm và thanh toán thông minh, tích hợp bản đồ và đánh giá người dùng.",
+      "results": "Kết quả:",
+      "resultsText": "Giúp Xtatuz thu hút hàng nghìn người dùng trong thời gian ngắn, tăng trưởng doanh thu và nhận được phản hồi tích cực về trải nghiệm ứng dụng."
+    },
+    "case2": {
+      "title": "Dự án 2: Position Exchange - Sàn giao dịch phi tập trung Web3",
+      "challenge": "Thách thức:",
+      "challengeText": "Xây dựng nền tảng giao dịch an toàn, minh bạch và hiệu suất cao trên blockchain.",
+      "solution": "Giải pháp:",
+      "solutionText": "Đội ngũ của chúng tôi triển khai các hợp đồng thông minh phức tạp, tích hợp ví kỹ thuật số và tối ưu hóa giao thức giao dịch để giảm thiểu chi phí gas.",
+      "results": "Kết quả:",
+      "resultsText": "Nền tảng xử lý hàng triệu USD khối lượng giao dịch hàng ngày, khẳng định chuyên môn sâu rộng của SMEW Tech trong Web3 và Blockchain."
+    },
+    "items": {
+      "xtatuz": {
+        "category": "Di động",
+        "name": "Xtatuz",
+        "description": "Ứng dụng đặt phòng khách sạn..."
+      },
+      "liveShop": {
+        "category": "Di động",
+        "name": "Live Shop",
+        "description": "Mua sắm trực tiếp..."
+      },
+      "leboFinance": {
+        "category": "Website",
+        "name": "Lebo finance",
+        "description": "Ứng dụng Web3..."
+      },
+      "chatOfficial": {
+        "category": "Phát triển",
+        "name": "Chat Official",
+        "description": "Nền tảng Chat Tài chính..."
+      },
+      "enstack": {
+        "category": "Di động",
+        "name": "Enstack",
+        "description": "Quản lý giao hàng..."
+      },
+      "positionExchange": {
+        "category": "Di động",
+        "name": "Position Exchange",
+        "description": "Sàn giao dịch phi tập trung Web3..."
+      },
+      "lexor": {
+        "category": "Website",
+        "name": "Lexor",
+        "description": "Nền tảng Salon..."
+      },
+      "network91": {
+        "category": "Website",
+        "name": "91.com.vn",
+        "description": "Mạng xã hội giao thông..."
+      },
+      "tiamo": {
+        "category": "Di động",
+        "name": "Tiamo",
+        "description": "Mạng xã hội Vietnamobile..."
+      },
+      "web3Lottery": {
+        "category": "Phát triển",
+        "name": "Web3 Lottery",
+        "description": "Xổ số Web3..."
+      },
+      "bookvn": {
+        "category": "Di động",
+        "name": "Bookvn",
+        "description": "Phân tích sách..."
+      },
+      "streamCargo": {
+        "category": "Website",
+        "name": "Stream cargo",
+        "description": "Vận chuyển, Hàng hóa..."
+      },
+      "automationToolkit": {
+        "category": "Website",
+        "name": "Automation toolkit",
+        "description": "Bộ công cụ tự động hóa bao gồm trình xây dựng quy trình công việc trực quan..."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Kiến tạo tương lai số. Công nghệ vì Kinh doanh.",
+    "email": "Email cho chúng tôi:",
+    "quickLinks": "Liên kết nhanh",
+    "ourServices": "Dịch vụ của chúng tôi",
+    "moreQuestions": "Có câu hỏi?",
+    "getInTouch": "Liên hệ ngay bên dưới",
+    "contactCTA": "Sẵn sàng bắt đầu dự án của bạn với SMEW Tech? Liên hệ ngay hôm nay!",
+    "emailPlaceholder": "Nhập địa chỉ Email:",
+    "contactNow": "Liên hệ ngay",
+    "copyright": "Bản quyền ©2025 SMEW.tech - Tất cả quyền được bảo lưu | Địa chỉ: Tổ 2, Phường Cầu Giấy, Thành phố Hà Nội, Việt Nam"
+  },
+  "achievements": {
+    "title": "Con số tự nói lên tất cả",
+    "subtitle": "Thành tựu của chúng tôi",
+    "description": "Thành tựu của chúng tôi là minh chứng cho cam kết về chất lượng, được thể hiện qua những mối quan hệ đối tác lâu dài mà chúng tôi duy trì với cả khách hàng cũ và mới.",
+    "clients": "Khách hàng",
+    "projects": "Dự án",
+    "members": "Thành viên",
+    "awards": "Giải thưởng"
+  },
+  "technology": {
+    "title": "Công nghệ chúng tôi sử dụng",
+    "subtitle": "Nền tảng Công nghệ",
+    "description": "Chúng tôi luôn cập nhật và ứng dụng những công nghệ mạnh mẽ nhất để tạo ra các giải pháp tối ưu.",
+    "languages": "Ngôn ngữ lập trình",
+    "languagesContent": "JavaScript, Python, Java, Golang, Rust, PHP, Swift, Kotlin, TypeScript",
+    "frameworks": "Nền tảng & Framework",
+    "frameworksFrontend": "Frontend:",
+    "frameworksFrontendContent": "NextJS, NestJS, ReactJS, AngularJS, Vue.js",
+    "frameworksBackend": "Backend:",
+    "frameworksBackendContent": "Node.js, Django, Laravel, Spring Boot, Go",
+    "frameworksMobile": "Mobile:",
+    "frameworksMobileContent": "React Native, Flutter, Native (iOS, Android)",
+    "databases": "Cơ sở dữ liệu & Cloud",
+    "databasesLabel": "Cơ sở dữ liệu:",
+    "databasesContent": "MongoDB, PostgreSQL, MySQL, Firebase, Redis",
+    "cloudLabel": "Nền tảng Cloud:",
+    "cloudContent": "AWS, Google Cloud Platform (GCP), Microsoft Azure",
+    "web3": "Web3 & Blockchain",
+    "web3Content": "Solidity, Rust, Ethereum, Solana, Binance Smart Chain, Smart Contracts"
+  },
+  "workflow": {
+    "title": "Quy trình triển khai dự án tối ưu",
+    "subtitle": "Quy trình làm việc chuyên nghiệp",
+    "description": "Chúng tôi tin rằng một quy trình làm việc rõ ràng là chìa khóa cho sự thành công. Tại SMEW Tech, chúng tôi áp dụng mô hình làm việc gồm 6 giai đoạn.",
+    "discovery": "Tiếp nhận & Phân tích",
+    "discoveryDescription": "Lắng nghe, làm rõ ý tưởng, mục tiêu và yêu cầu dự án. Nghiên cứu thị trường và đối thủ cạnh tranh.",
+    "design": "Thiết kế UI/UX",
+    "designDescription": "Xây dựng wireframe và prototype. Thiết kế giao diện hiện đại, thân thiện với người dùng được tối ưu hóa trải nghiệm.",
+    "development": "Phát triển & Lập trình",
+    "developmentDescription": "Đội ngũ kỹ sư lập trình các tính năng. Áp dụng phương pháp Agile/Scrum để đảm bảo tiến độ.",
+    "testing": "Kiểm thử",
+    "testingDescription": "Kiểm thử toàn diện trên nhiều thiết bị và kịch bản để phát hiện và sửa lỗi, đảm bảo sản phẩm hoạt động ổn định.",
+    "deployment": "Triển khai & Bàn giao",
+    "deploymentDescription": "Triển khai sản phẩm lên môi trường production. Bàn giao mã nguồn và tài liệu chi tiết.",
+    "maintenance": "Bảo trì & Hỗ trợ",
+    "maintenanceDescription": "Theo dõi và đảm bảo hệ thống hoạt động ổn định sau khi ra mắt. Cung cấp hỗ trợ kỹ thuật và gói nâng cấp."
+  },
+  "whyChoose": {
+    "title": "Đối tác công nghệ cho sự phát triển bền vững",
+    "subtitle": "Tại sao chọn SMEW Tech",
+    "description": "Chúng tôi không chỉ là nhà cung cấp dịch vụ—chúng tôi là đối tác tận tâm của bạn, cam kết lắng nghe, hỗ trợ và giúp bạn đạt được mục tiêu.",
+    "experience": {
+      "title": "Kinh nghiệm quốc tế",
+      "description": "Hơn 10 năm làm việc với các đối tác toàn cầu, hiểu sâu sắc các thị trường và ngành công nghiệp khác nhau."
+    },
+    "team": {
+      "title": "Đội ngũ chuyên gia",
+      "description": "Các kỹ sư, nhà phát triển và chuyên gia thiết kế tài năng luôn cập nhật công nghệ mới nhất."
+    },
+    "cost": {
+      "title": "Chi phí tối ưu",
+      "description": "Các giải pháp cạnh tranh với tiết kiệm ngân sách đáng kể, đặc biệt là mô hình ODC của chúng tôi."
+    },
+    "qualityAssurance": {
+      "title": "Chất lượng hàng đầu",
+      "description": "Quy trình quản lý chất lượng nghiêm ngặt ở mọi giai đoạn dự án đảm bảo tiêu chuẩn cao nhất."
+    }
+  },
+  "contact": {
+    "bannerTitle": "Liên hệ với chúng tôi",
+    "bannerDescription": "Cảm ơn bạn đã quan tâm đến chúng tôi. Vui lòng điền vào biểu mẫu bên dưới và chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.",
+    "breadcrumbHome": "Trang chủ",
+    "breadcrumbContact": "Liên hệ",
+    "subtitle": "Thông tin liên hệ",
+    "title": "Liên hệ với chúng tôi",
+    "locationLabel": "Địa chỉ:",
+    "locationAddress": "Số 51 đường Cầu Giấy, Phường Dịch Vọng, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam.",
+    "emailLabel": "Email:",
+    "formSubtitle": "Gửi tin nhắn cho chúng tôi",
+    "formTitle": "Để lại lời nhắn",
+    "namePlaceholder": "Tên của bạn:",
+    "emailPlaceholder": "Email của bạn:",
+    "messagePlaceholder": "Nội dung",
+    "sendButton": "Gửi ngay",
+    "successMessage": "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi bạn trong thời gian sớm nhất!",
+    "errorMessage": "Đã xảy ra lỗi, vui lòng thử lại sau!"
+  },
+  "testimonials": {
+    "subtitle": "ĐÁNH GIÁ KHÁCH HÀNG",
+    "title": "Khách hàng nói gì về chúng tôi",
+    "happyClient": "Khách hàng hài lòng",
+    "previous": "Trước",
+    "next": "Tiếp",
+    "testimonial1": {
+      "text": "Chúng tôi đã hợp tác với SMEW Technology để xây dựng hệ thống phần mềm quản lý khóa học và bán hàng liên kết trên TikTok. Họ đã cung cấp một sản phẩm vượt quá mong đợi của chúng tôi. Giao diện thân thiện với người dùng và các chức năng mạnh mẽ đã giúp chúng tôi quản lý khóa học và doanh số hiệu quả hơn. Chúng tôi rất hài lòng với sự chuyên nghiệp và tận tâm của đội ngũ SMEW Technology.",
+      "name": "Anh Linh"
+    },
+    "testimonial2": {
+      "text": "SMEW Technology đã làm việc với chúng tôi để phát triển hệ thống ứng dụng đặt phòng khách sạn cho Thái Lan. Họ đã thể hiện sự hiểu biết sâu sắc về yêu cầu của chúng tôi và cung cấp các giải pháp tối ưu. Kết quả là một ứng dụng đặt phòng khách sạn đẹp và dễ sử dụng với nhiều tính năng hữu ích. Chúng tôi đánh giá cao sự chuyên nghiệp và cam kết của đội ngũ SMEW Technology.",
+      "name": "Anh Hòa"
+    },
+    "testimonial3": {
+      "text": "SMEW Technology đã thể hiện xuất sắc trong việc xây dựng ứng dụng Live stream và hệ thống tìm bạn bè tại Nhật Bản. Họ đã đáp ứng đầy đủ các yêu cầu phức tạp của chúng tôi và cung cấp một sản phẩm xuất sắc. Chúng tôi rất hài lòng với hiệu suất và tính năng của ứng dụng và cảm ơn đội ngũ SMEW Technology vì sự hỗ trợ nhiệt tình.",
+      "name": "Yuusuke akinaga"
+    },
+    "testimonial4": {
+      "text": "SMEW Technology đã cung cấp cho chúng tôi một giải pháp xuất sắc cho hệ thống phần mềm sàn giao dịch phi tập trung crypto và Blockchain layer 1. Họ đã thể hiện chuyên môn cao và sự đổi mới trong việc xây dựng sản phẩm này. Công nghệ hiện đại và bảo mật vượt trội đã giúp chúng tôi thực hiện các giao dịch một cách an toàn và hiệu quả. Chúng tôi rất hài lòng với kết quả và sự hợp tác đáng khen ngợi với SMEW Technology.",
+      "name": "Anh Quý"
+    },
+    "testimonial5": {
+      "text": "SMEW Technology đã cung cấp một giải pháp ứng dụng Chat nội bộ tuyệt vời cho chúng tôi. Hệ thống đã cải thiện hiệu quả giao tiếp nội bộ trong công ty của chúng tôi. Giao diện thân thiện với người dùng và các tính năng linh hoạt đã tạo ra một môi trường thuận lợi để trao đổi thông tin và ý tưởng. Chúng tôi đánh giá cao đội ngũ SMEW Technology vì sự nhiệt tình và chuyên nghiệp trong việc cung cấp giải pháp cho chúng tôi.",
+      "name": "Aqeel Abbas Khan"
+    }
+  }
+}

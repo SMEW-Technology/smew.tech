@@ -1,7 +1,10 @@
 import React from "react";
 import NavBar from "../../components/NavBar";
+import { useLanguage } from "../../contexts/LanguageContext";
 
 export default function ContactBanner() {
+    const { t } = useLanguage();
+
     return (
         <div className="sub-banner">
             <figure className="sub-bannerleftlayer mb-0">
@@ -16,15 +19,14 @@ export default function ContactBanner() {
                                 <figure className="service-rightcircle mb-0">
                                     <img src="./images/service-rightcircle.png" alt="" className="img-fluid" />
                                 </figure>
-                                <h1 className="text-white">Contact Us</h1>
-                                <p>Thank you for your interest with us.
-                                    Please complete the form below and we will get in touch with you shortly.</p>
+                                <h1 className="text-white">{t('contact.bannerTitle')}</h1>
+                                <p>{t('contact.bannerDescription')}</p>
                                 <div className="box">
-                                    <span className="mb-0">Home</span>
+                                    <span className="mb-0">{t('contact.breadcrumbHome')}</span>
                                     <figure className="mb-0 arrow">
                                         <img src="./images/button-arrow.png" alt="" className="img-fluid" />
                                         </figure>
-                                    <span className="mb-0 box_span">Contact</span>
+                                    <span className="mb-0 box_span">{t('contact.breadcrumbContact')}</span>
                                 </div>
                             </div>
                         </div>

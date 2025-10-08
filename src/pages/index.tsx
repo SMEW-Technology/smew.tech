@@ -2,9 +2,12 @@ import React from "react";
 import Testimonial from "../components/Testimonial";
 import Offer from "../components/Offer";
 import AboutUs from "../components/AboutUs";
+import { useLanguage } from "../contexts/LanguageContext";
 
 
 export default function Index() {
+    const { t } = useLanguage();
+
     return (<>
             <section className="service-section">
                 <figure className="service-leftlayer mb-0">
@@ -24,8 +27,8 @@ export default function Index() {
                                                 <img src="./images/service-producticon.png" alt=""
                                                      className="img-fluid"/>
                                             </figure>
-                                            <h4>Strategic Development Center (ODC)</h4>
-                                            <p className="text-size-18">Not just outsourcing—strategic team expansion with 35%-60% cost savings. Dedicated, culturally aligned teams integrated into your core processes.</p>
+                                            <h4>{t('services.odc.title')}</h4>
+                                            <p className="text-size-18">{t('services.odc.description')}</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -35,8 +38,8 @@ export default function Index() {
                                                     <img src="./images/service-producticon.png" alt=""
                                                          className="img-fluid"/>
                                                 </figure>
-                                                <h4>MOBILE APP DEVELOPMENT</h4>
-                                                <p className="text-size-18">Building apps that are not just beautiful but optimized for conversion rates and enhanced user engagement. iOS, Android, Flutter, React Native.</p>
+                                                <h4>{t('services.mobile.title')}</h4>
+                                                <p className="text-size-18">{t('services.mobile.description')}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -48,8 +51,8 @@ export default function Index() {
                                                 <img src="./images/service-producticon.png" alt=""
                                                      className="img-fluid"/>
                                             </figure>
-                                            <h4>WEB DEVELOPMENT</h4>
-                                            <p className="text-size-18">Building powerful, scalable web platforms that operate efficiently, reduce costs, and are ready for future growth. E-learning, e-commerce, Fintech, Web3.</p>
+                                            <h4>{t('services.web.title')}</h4>
+                                            <p className="text-size-18">{t('services.web.description')}</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -59,8 +62,8 @@ export default function Index() {
                                                     <img src="./images/service-dataicon.png" alt=""
                                                          className="img-fluid"/>
                                                 </figure>
-                                                <h4>DATA LABELING</h4>
-                                                <p className="text-size-18">Providing highly accurate input data as a solid foundation for your AI models to make smarter, more effective business decisions. Data annotation, HITL, Computer Vision.</p>
+                                                <h4>{t('services.dataLabeling.title')}</h4>
+                                                <p className="text-size-18">{t('services.dataLabeling.description')}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -72,17 +75,17 @@ export default function Index() {
                                 <figure className="service-rightcircle mb-0">
                                     <img src="./images/service-rightcircle.png" alt="" className="img-fluid"/>
                                 </figure>
-                                <h6>Our Services</h6>
-                                <h2>Comprehensive Technology Solutions</h2>
-                                <p>Our solutions are strategically tailored to help overcome any business IT challenge and drive sustainable growth.</p>
+                                <h6>{t('services.subtitle')}</h6>
+                                <h2>{t('services.title')}</h2>
+                                <p>{t('services.description')}</p>
                                 <ul className="list-unstyled mb-0">
-                                    <li className="text"><i className="circle fa-duotone fa-check"></i>Strategic Development Center (ODC) - Not just outsourcing, but strategic team expansion
+                                    <li className="text"><i className="circle fa-duotone fa-check"></i>{t('services.odc.listItem')}
                                     </li>
-                                    <li className="text"><i className="circle fa-duotone fa-check"></i>Mobile App Development - Beautiful interfaces optimized for conversion
+                                    <li className="text"><i className="circle fa-duotone fa-check"></i>{t('services.mobile.listItem')}
                                     </li>
-                                    <li className="text"><i className="circle fa-duotone fa-check"></i>Web Development - Powerful platforms built to scale
+                                    <li className="text"><i className="circle fa-duotone fa-check"></i>{t('services.web.listItem')}
                                     </li>
-                                    <li className="text text1"><i className="circle fa-duotone fa-check"></i>Data Labeling - Precise data for intelligent AI decisions
+                                    <li className="text text1"><i className="circle fa-duotone fa-check"></i>{t('services.dataLabeling.listItem')}
                                     </li>
                                 </ul>
                             </div>
@@ -117,11 +120,9 @@ export default function Index() {
                                 <figure className="offer-circleimage mb-0">
                                     <img src="./images/offer-circleimage.png" alt="" className="img-fluid"/>
                                 </figure>
-                                <h6>Achievements</h6>
-                                <h2>Some Number of Our Achievements</h2>
-                                <p>Our accomplishments stand as a testament to our commitment to quality, demonstrated
-                                    through the enduring partnerships we uphold with both longstanding and new
-                                    customers.</p>
+                                <h6>{t('achievements.subtitle')}</h6>
+                                <h2>{t('achievements.title')}</h2>
+                                <p>{t('achievements.description')}</p>
                             </div>
                         </div>
                         <div className="col-lg-7 col-md-12 col-sm-12 col-12">
@@ -132,7 +133,7 @@ export default function Index() {
                                     </figure>
                                     <div className="wrapper">
                                         <h3>200+</h3>
-                                        <p className="text-size-18 mb-0">Clients</p>
+                                        <p className="text-size-18 mb-0">{t('achievements.clients')}</p>
                                     </div>
                                 </div>
                                 <div className="achievement-box box2">
@@ -141,7 +142,7 @@ export default function Index() {
                                     </figure>
                                     <div className="wrapper">
                                         <h3>500+</h3>
-                                        <p className="text-size-18 mb-0">Projects</p>
+                                        <p className="text-size-18 mb-0">{t('achievements.projects')}</p>
                                     </div>
                                 </div>
                                 <div className="achievement-box box3">
@@ -153,7 +154,7 @@ export default function Index() {
                                             <h3 className="value">100</h3>
                                             <span className="plus">+</span>
                                         </div>
-                                        <p className="text text-size-18 mb-0">Members</p>
+                                        <p className="text text-size-18 mb-0">{t('achievements.members')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,9 +174,9 @@ export default function Index() {
                     <div className="row">
                         <div className="col-12">
                             <div className="project_content" data-aos="fade-right">
-                                <h6>RECENT PROJECTS</h6>
-                                <h2>Proof of Capability Through Real Projects</h2>
-                                <p>With over 500 completed projects for more than 200 clients, SMEW Tech is confident in transforming ideas into reality. Showcasing select projects authorized by our customers for public display.</p>
+                                <h6>{t('projects.subtitle')}</h6>
+                                <h2>{t('projects.title')}</h2>
+                                <p>{t('projects.description')}</p>
                                 <figure className="offer-circleimage mb-0">
                                     <img src="./images/offer-circleimage.png" alt="" className="img-fluid"/>
                                 </figure>

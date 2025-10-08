@@ -24,9 +24,8 @@ export default function Index() {
                                                 <img src="./images/service-producticon.png" alt=""
                                                      className="img-fluid"/>
                                             </figure>
-                                            <h4>ODC</h4>
-                                            <p className="text-size-18">Cost savings of 35% - 60%,
-                                                Dedicated full-time employees.</p>
+                                            <h4>Strategic Development Center (ODC)</h4>
+                                            <p className="text-size-18">Not just outsourcing—strategic team expansion with 35%-60% cost savings. Dedicated, culturally aligned teams integrated into your core processes.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -36,9 +35,8 @@ export default function Index() {
                                                     <img src="./images/service-producticon.png" alt=""
                                                          className="img-fluid"/>
                                                 </figure>
-                                                <h4>MOBILE DEVELOPMENT</h4>
-                                                <p className="text-size-18">iOS, Android, Flutter, React Native apps,
-                                                    app testing.</p>
+                                                <h4>MOBILE APP DEVELOPMENT</h4>
+                                                <p className="text-size-18">Building apps that are not just beautiful but optimized for conversion rates and enhanced user engagement. iOS, Android, Flutter, React Native.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -51,9 +49,7 @@ export default function Index() {
                                                      className="img-fluid"/>
                                             </figure>
                                             <h4>WEB DEVELOPMENT</h4>
-                                            <p className="text-size-18">E-learning, e-commerce, Fintech, Web3, Custom
-                                                Web,
-                                                Cloud-Architecture Solutions.</p>
+                                            <p className="text-size-18">Building powerful, scalable web platforms that operate efficiently, reduce costs, and are ready for future growth. E-learning, e-commerce, Fintech, Web3.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -63,9 +59,8 @@ export default function Index() {
                                                     <img src="./images/service-dataicon.png" alt=""
                                                          className="img-fluid"/>
                                                 </figure>
-                                                <h4>DATA LABELS</h4>
-                                                <p className="text-size-18">Data annotation, HITL, In-house,
-                                                    Crowdsourcing, Computer Vision.</p>
+                                                <h4>DATA LABELING</h4>
+                                                <p className="text-size-18">Providing highly accurate input data as a solid foundation for your AI models to make smarter, more effective business decisions. Data annotation, HITL, Computer Vision.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -78,20 +73,16 @@ export default function Index() {
                                     <img src="./images/service-rightcircle.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <h6>Our Services</h6>
-                                <h2>Accompany clients through every step of the digital journey.</h2>
-                                <p>Our solutions are tailored to help
-                                    overcome any business IT challenge.</p>
+                                <h2>Comprehensive Technology Solutions</h2>
+                                <p>Our solutions are strategically tailored to help overcome any business IT challenge and drive sustainable growth.</p>
                                 <ul className="list-unstyled mb-0">
-                                    <li className="text"><i className="circle fa-duotone fa-check"></i>ODC - Offshore
-                                        Development Center.
+                                    <li className="text"><i className="circle fa-duotone fa-check"></i>Strategic Development Center (ODC) - Not just outsourcing, but strategic team expansion
                                     </li>
-                                    <li className="text"><i className="circle fa-duotone fa-check"></i>Mobile
-                                        Development.
+                                    <li className="text"><i className="circle fa-duotone fa-check"></i>Mobile App Development - Beautiful interfaces optimized for conversion
                                     </li>
-                                    <li className="text"><i className="circle fa-duotone fa-check"></i>Web Development.
+                                    <li className="text"><i className="circle fa-duotone fa-check"></i>Web Development - Powerful platforms built to scale
                                     </li>
-                                    <li className="text text1"><i className="circle fa-duotone fa-check"></i>Data
-                                        Labels.
+                                    <li className="text text1"><i className="circle fa-duotone fa-check"></i>Data Labeling - Precise data for intelligent AI decisions
                                     </li>
                                 </ul>
                             </div>
@@ -183,9 +174,8 @@ export default function Index() {
                         <div className="col-12">
                             <div className="project_content" data-aos="fade-right">
                                 <h6>RECENT PROJECTS</h6>
-                                <h2>Our Latest Case Studies</h2>
-                                <p>Showcasing projects we've develop, authorized by our customers to be publicly
-                                    displayed on our website.</p>
+                                <h2>Proof of Capability Through Real Projects</h2>
+                                <p>With over 500 completed projects for more than 200 clients, SMEW Tech is confident in transforming ideas into reality. Showcasing select projects authorized by our customers for public display.</p>
                                 <figure className="offer-circleimage mb-0">
                                     <img src="./images/offer-circleimage.png" alt="" className="img-fluid"/>
                                 </figure>

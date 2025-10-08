@@ -17,8 +17,8 @@ export default function ProjectBanner() {
                                 <figure className="project-rightcircle service-rightcircle mb-0">
                                     <img src="./images/service-rightcircle.png" alt="" className="img-fluid" />
                                 </figure>
-                                <h1 className="text-white">Our projects</h1>
-                                <p>Our latest case studies.</p>
+                                <h1 className="text-white">Our Projects</h1>
+                                <p>Proof of Capability Through Real Projects</p>
                                 <div className="box">
                                     <span className="mb-0">Home</span>
                                     <figure className="mb-0 arrow">

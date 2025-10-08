@@ -12,9 +12,8 @@ export default function Projects() {
                        <div className="col-12">
                            <div className="project_content" data-aos="fade-right">
                                <h6>RECENT PROJECTS</h6>
-                               <h2>Our Latest Case Studies</h2>
-                               <p>Dursus mal suada faci lisis lorem ipsum dolarorit more ame ion consectetur elit vesti at bulum nec
-                                   odio aea the dumm recreo that dolocons.</p>
+                               <h2>Proof of Capability Through Real Projects</h2>
+                               <p>With over 500 completed projects for more than 200 clients, SMEW Tech is confident in transforming ideas into reality. Here are select projects we've developed, authorized by our customers to be publicly displayed.</p>
                                <figure className="offer-circleimage mb-0">
                                    <img src="./images/offer-circleimage.png" alt="" className="img-fluid" />
                                </figure>
@@ -234,8 +233,35 @@ export default function Projects() {
                    <div className="row">
                        <div className="col-12">
                            <div className="offer_content">
-                               <h6>what We Offer</h6>
-                               <h2>some of Our Achievements</h2>
+                               <h6>Success Stories</h6>
+                               <h2>How We Create Difference</h2>
+                               <p>Going deeper into specific projects to show how SMEW Tech solves problems and creates real value for clients.</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div className="row mb-5">
+                       <div className="col-lg-6 col-md-12">
+                           <div className="content-card card-blue" data-aos="fade-up">
+                               <h3 className="card-title">Project 1: Xtatuz - Hotel Booking App in Thailand</h3>
+                               <p className="text1"><strong>Challenge:</strong> Building a competitive, user-friendly booking platform for the vibrant tourism market.</p>
+                               <p className="text1"><strong>Solution:</strong> SMEW Tech developed a cross-platform mobile application with an intuitive interface, intelligent search and payment system, integrated maps, and user reviews.</p>
+                               <p className="text1"><strong>Results:</strong> Helped Xtatuz attract thousands of users in a short time, grew revenue, and received positive feedback on the app experience.</p>
+                           </div>
+                       </div>
+                       <div className="col-lg-6 col-md-12">
+                           <div className="content-card card-green" data-aos="fade-up">
+                               <h3 className="card-title">Project 2: Position Exchange - Web3 Decentralized Exchange</h3>
+                               <p className="text1"><strong>Challenge:</strong> Building a secure, transparent, and high-performance trading platform on blockchain.</p>
+                               <p className="text1"><strong>Solution:</strong> Our team deployed complex smart contracts, integrated digital wallets, and optimized trading protocols to minimize gas costs.</p>
+                               <p className="text1"><strong>Results:</strong> The platform processes millions of USD in daily trading volume, confirming SMEW Tech's deep expertise in Web3 and Blockchain.</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div className="row">
+                       <div className="col-12">
+                           <div className="offer_content">
+                               <h6>Our Achievements</h6>
+                               <h2>Numbers That Speak for Themselves</h2>
                                <p>Our accomplishments stand as a testament to our commitment to quality, demonstrated through the enduring partnerships we uphold with both longstanding and new customers.</p>
                            </div>
                        </div>

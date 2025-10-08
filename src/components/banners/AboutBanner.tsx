@@ -17,9 +17,7 @@ export default function AboutBanner() {
                                     <img src="./images/service-rightcircle.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <h1 className="text-white">About Us</h1>
-                                <p>Global IT
-                                    consulting &
-                                    service provider</p>
+                                <p>Building the Digital Future - Empowering Digital Transformation</p>
                                 <div className="box">
                                     <span className="mb-0">Home</span>
                                     <figure className="mb-0 arrow">

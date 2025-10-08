@@ -29,10 +29,9 @@ export default function HomeBanner() {
                                 <figure className="banner-line mb-0">
                                     <img src="./images/banner-line.png" alt="" className="img-fluid"/>
                                 </figure>
-                                <h6 className="text-white">WE PROVIDE OUTSOURCED</h6>
-                                <h1 className="text-white">IT Services & Solutions</h1>
-                                <p>We are committed to delivering world-class technology solutions for complex business
-                                    opportunities and challenges, leveraging from our five most compelling strengths of<br/>
+                                <h6 className="text-white">EMPOWERING DIGITAL TRANSFORMATION</h6>
+                                <h1 className="text-white">Technology for Business</h1>
+                                <p>At SMEW Tech, we are not just developers—we are business solution architects. We believe technology is most powerful when it solves real problems, creates competitive advantages, and drives sustainable growth. Every line of code we write, every solution we build is aimed at one goal: Your business success.<br/>
                                     <b>Speed, Scale, Global Presence, Quality and Compliance.</b></p>
                                 <Link className="get_started button2 text-white text-decoration-none" href="/contact">Contact
                                     Us

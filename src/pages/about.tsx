@@ -20,9 +20,11 @@ export default function About() {
                                     <img src="./images/about-image2.jpg" alt="" className="img-fluid"/>
                                 </figure>
                                 <div className="image-circle">
-                                    <div className="years">
-                                        <span className="text-white value">10</span>
-                                        <sup className="text-white mb-0 plus">+</sup>
+                                    <div className="years" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center'}}>
+                                        <div>
+                                            <span className="text-white value">10</span>
+                                            <sup className="text-white mb-0 plus">+</sup>
+                                        </div>
                                         <span className="text-white text">Years of Experience</span>
                                     </div>
                                     <figure className="mb-0 about-imagecircle">
@@ -37,14 +39,12 @@ export default function About() {
                                     <img src="./images/service-rightcircle.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <h6>About Us</h6>
-                                <h2>Innovate Solution For Success</h2>
-                                <h2>Global IT consulting & service provider.</h2>
-                                <p className="text1">SMEW Technology is a global technology and IT services provider
-                                    with headquarter in Vietnam.
-                                    Its 10 Years of experiences in the global market have seen SMEW Technology
-                                    empowering digital transformation for businesses worldwide, from various industries:
-                                    Healthcare, BFSI, Communications, Media and Services, Logistics and Transportation,
-                                    Consumer Packaged Goods, and Public Sector, Blockchain.</p>
+                                <h2>Building the Digital Future</h2>
+                                <h3>Our Mission</h3>
+                                <p className="text1">We are committed to providing advanced, flexible, and efficient technology solutions that help clients optimize operations, enhance competitive capabilities, and achieve exceptional growth in the digital era.</p>
+                                <h3>Our Vision</h3>
+                                <p className="text1">By 2030, SMEW Tech aims to become one of the leading technology companies in the region, a symbol of innovation, creativity, and quality, bringing Vietnam's technology products to the world stage.</p>
+                                <p className="text1">With over 10 years of experience in the global market, SMEW Technology has empowered digital transformation for businesses worldwide across various industries: Healthcare, BFSI, Communications, Media and Services, Logistics and Transportation, Consumer Packaged Goods, Public Sector, and Blockchain.</p>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,8 @@ export default function About() {
                                 <div className="core-values-slider row g-4">
                                     <div className="slide-first-item col-lg-4 col-md-6 col-sm-12">
                                         <div className="content-card content-card-title">
-                                            <h2 className="section-title">The key drivers of our business</h2>
+                                            <h2 className="section-title">Our Core Values in Action</h2>
+                                            <p className="text1">Living our philosophy of Technology for Business</p>
                                         </div>
                                     </div>
 
@@ -72,37 +73,24 @@ export default function About() {
                                         <div className="content-card card-orange aos-init aos-animate"
                                              data-aos="fade-up"
                                              data-aos-duration="1000" data-aos-easing="ease-in-cubic">
-                                            <h3 className="card-title">Speed</h3>
-                                            <p className="text1 text1">Agile Factory to validate ideas, and Ready-made
-                                                solutions/
-                                                digital frameworks to define digital initiatives quickly.</p>
+                                            <h3 className="card-title">Innovation Focused on Effectiveness</h3>
+                                            <p className="text1">We apply new technologies not to follow trends, but to find the most effective solutions to your business challenges.</p>
                                         </div>
                                     </div>
 
                                     <div className="col-lg-4 col-md-6 col-sm-12">
                                         <div className="content-card card-blue aos-init aos-animate" data-aos="fade-up"
                                              data-aos-duration="1000" data-aos-easing="ease-in-cubic">
-                                            <h3 className="card-title">Scale</h3>
-                                            <p className="text1 text1">Strong capability to scale up the projects per
-                                                customers’
-                                                needs with 100+ software engineers, including the digital-wizard
-                                                teams of
-                                                50+ certified experts.</p>
+                                            <h3 className="card-title">Quality for Business Goals</h3>
+                                            <p className="text1">Quality products are not just bug-free—they must be stable, secure, and directly contribute to your revenue and cost objectives.</p>
                                         </div>
                                     </div>
 
                                     <div className="col-lg-4 col-md-6 col-sm-12">
                                         <div className="content-card card-green aos-init aos-animate" data-aos="fade-up"
                                              data-aos-duration="1000" data-aos-easing="ease-in-cubic">
-                                            <h3 className="card-title">Global Presence</h3>
-                                            <p className="text1">Optimal mix of high quality near shore, offshore
-                                                and
-                                                onsite
-                                                delivery models. This enables our partners to diversify their sourcing
-                                                strategy
-                                                to improve the bottom line, managing multiple language collaborations
-                                                across
-                                                time zones.</p>
+                                            <h3 className="card-title">Customer-Centric Strategy</h3>
+                                            <p className="text1">We listen to understand, consult to optimize, and partner as an integral part of your company.</p>
                                         </div>
                                     </div>
 
@@ -110,14 +98,8 @@ export default function About() {
                                         <div className="content-card card-lightblue aos-init aos-animate"
                                              data-aos="fade-up"
                                              data-aos-duration="1000" data-aos-easing="ease-in-cubic">
-                                            <h3 className="card-title">Quality</h3>
-                                            <p className="text1">Global standardized Quality Management System
-                                                builds
-                                                trust
-                                                among many customers, including across the globe global disruptors and
-                                                achieved the
-                                                average
-                                                Customer Satisfactory Score of 94.67/100.</p>
+                                            <h3 className="card-title">Transparency in All Processes</h3>
+                                            <p className="text1">You will always know where your project stands, what the progress is, and every decision is discussed openly.</p>
                                         </div>
                                     </div>
 
@@ -125,12 +107,8 @@ export default function About() {
                                         <div className="content-card card-blueviolet aos-init aos-animate"
                                              data-aos="fade-up"
                                              data-aos-duration="1000" data-aos-easing="ease-in-cubic">
-                                            <h3 className="card-title">Compliance</h3>
-                                            <p className="text1">The certified Information Security Management
-                                                System
-                                                includes Policies, Procedures and Guidelines to ensure the security of
-                                                data
-                                                assets for SMEW Technology and our customers.</p>
+                                            <h3 className="card-title">Collaboration to Create Value</h3>
+                                            <p className="text1">We work closely with clients because we believe the best solutions come from collective strength.</p>
                                         </div>
                                     </div>
 
@@ -156,11 +134,44 @@ export default function About() {
                     <div className="row">
                         <div className="col-12">
                             <div className="offer_content">
-                                <h6>what We Offer</h6>
-                                <h2>some of Our Achievements</h2>
-                                <p>Our accomplishments stand as a testament to our commitment to quality, demonstrated
-                                    through the enduring partnerships we uphold with both longstanding and new
-                                    customers.</p>
+                                <h6>Why Choose SMEW Tech</h6>
+                                <h2>Your Technology Partner for Sustainable Growth</h2>
+                                <p>We are more than a service provider—we are your dedicated partner, committed to listening, supporting, and helping you achieve your goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row position-relative mb-5">
+                        <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div className="content-card card-orange" data-aos="fade-up">
+                                <h3 className="card-title">International Experience</h3>
+                                <p className="text1">Over 10 years working with global partners, deeply understanding different markets and industries.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div className="content-card card-blue" data-aos="fade-up">
+                                <h3 className="card-title">Expert Team</h3>
+                                <p className="text1">Talented engineers, developers, and design specialists always updated with the latest technologies.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div className="content-card card-green" data-aos="fade-up">
+                                <h3 className="card-title">Optimal Costs</h3>
+                                <p className="text1">Competitive solutions with significant budget savings, especially our ODC model.</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12">
+                            <div className="content-card card-lightblue" data-aos="fade-up">
+                                <h3 className="card-title">Top Quality</h3>
+                                <p className="text1">Rigorous quality management processes at every project stage ensure the highest standards.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="offer_content">
+                                <h6>Our Achievements</h6>
+                                <h2>Numbers That Speak for Themselves</h2>
+                                <p>Our accomplishments stand as a testament to our commitment to quality, demonstrated through the enduring partnerships we uphold with both longstanding and new customers.</p>
                             </div>
                         </div>
                     </div>

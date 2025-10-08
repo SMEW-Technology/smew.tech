@@ -18,7 +18,7 @@ export default function ServiceBanner() {
                                     <img src="./images/service-rightcircle.png" alt="" className="img-fluid"/>
                                 </figure>
                                 <h1 className="text-white">Our Services</h1>
-                                <p>Accompany clients through every step of the digital journey.</p>
+                                <p>Comprehensive Technology Solutions for Sustainable Growth</p>
                                 <div className="box">
                                     <span className="mb-0">Home</span>
                                     <figure className="mb-0 arrow">

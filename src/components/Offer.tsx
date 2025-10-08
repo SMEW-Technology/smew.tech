@@ -11,9 +11,9 @@ export default function Offer() {
                     <div className="row">
                         <div className="col-12">
                             <div className="offer_content" data-aos="fade-up">
-                                <h6>OUR VALUES</h6>
-                                <h2>The values we represent</h2>
-                                <p>These are what we live and how we walk the talk in our daily work life. They represent our commitment to our people, customers, partners and stakeholders.</p>
+                                <h6>OUR CORE VALUES IN ACTION</h6>
+                                <h2>Our Philosophy: Technology for Business</h2>
+                                <p>At SMEW Tech, we don't just code—we architect business solutions. Our philosophy is that technology must stem from a deep understanding of your challenges and strategic goals. We believe technology is truly powerful only when it solves real problems, creates competitive advantages, and drives sustainable growth.</p>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,8 @@ export default function Offer() {
                                 </div>
                                 <div className="lower_portion_wrapper">
                                     <div className="lower_portion">
-                                        <h4 className="mb-0">Perfect solutions that business demands</h4>
+                                        <h4 className="mb-0">Innovation Focused on Effectiveness</h4>
+                                        <p className="text-size-16">We apply new technologies not to follow trends, but to find the most effective solutions to your business challenges.</p>
                                     </div>
                                 </div>
                             </div>
@@ -54,7 +55,8 @@ export default function Offer() {
                                 </div>
                                 <div className="lower_portion_wrapper">
                                     <div className="lower_portion">
-                                        <h4 className="mb-0">We Provide Powerfull Product Strategy</h4>
+                                        <h4 className="mb-0">Quality for Business Goals</h4>
+                                        <p className="text-size-16">Quality products are not just bug-free—they are stable, secure, and directly contribute to your revenue and cost objectives.</p>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +75,8 @@ export default function Offer() {
                                 </div>
                                 <div className="lower_portion_wrapper">
                                     <div className="lower_portion">
-                                        <h4 className="mb-0">Help your business grow worldwide</h4>
+                                        <h4 className="mb-0">Customer-Centric Strategy</h4>
+                                        <p className="text-size-16">We listen to understand, consult to optimize, and partner as an integral part of your company.</p>
                                     </div>
                                 </div>
                             </div>

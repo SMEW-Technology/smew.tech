@@ -45,7 +45,14 @@ npm run lint             # Run ESLint
   - `ContactForm.tsx`: Firebase-integrated contact form
   - `banners/`: Page-specific banner components (HomeBanner, ServiceBanner, etc.)
   - `FirebaseConfig.tsx`: Firebase initialization using environment variables
-  - `JsConfig.tsx`: jQuery/Bootstrap integration helper
+  - `FloatingButtons.tsx`: Floating action buttons including language switcher
+
+### Internationalization (i18n)
+- **`src/contexts/LanguageContext.tsx`**: React context providing language state and `t()` translation function
+- **`src/locales/`**: Translation JSON files (`en.json`, `vi.json`)
+- Languages: English (`en`) and Vietnamese (`vi`)
+- Language preference persisted to localStorage
+- Usage in components: `const { t, language, setLanguage } = useLanguage();` then `t('key.path')`
 
 ### Styling
 - Bootstrap 5.3.1 as base framework
@@ -115,6 +122,11 @@ Since there are no test files in the repo:
 **Modifying Firebase config:**
 - Update `src/components/FirebaseConfig.tsx`
 - Ensure environment variables are set in deployment environment (GitHub Secrets for Actions)
+
+**Adding/updating translations:**
+1. Add keys to both `src/locales/en.json` and `src/locales/vi.json`
+2. Use nested keys with dot notation (e.g., `"nav": { "home": "Home" }` accessed as `t('nav.home')`)
+3. Import and use the hook: `import { useLanguage } from '../contexts/LanguageContext';`
 
 **Deploying:**
 - Push to `main` branch triggers automatic deployment via GitHub Actions

@@ -1,6 +1,14 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
+import enTranslations from '../locales/en.json';
+import viTranslations from '../locales/vi.json';
 
 type Language = 'en' | 'vi';
+
+// Pre-loaded translations - always available
+const translations: Record<Language, typeof enTranslations> = {
+    en: enTranslations,
+    vi: viTranslations
+};
 
 interface LanguageContextType {
     language: Language;
@@ -22,50 +30,51 @@ interface LanguageProviderProps {
     children: React.ReactNode;
 }
 
+// Helper to get nested value from object
+const getNestedValue = (obj: any, path: string): string | undefined => {
+    const keys = path.split('.');
+    let value = obj;
+    for (const key of keys) {
+        if (value === undefined || value === null) return undefined;
+        value = value[key];
+    }
+    return typeof value === 'string' ? value : undefined;
+};
+
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
+    // Always start with 'en' for SSR consistency
     const [language, setLanguageState] = useState<Language>('en');
-    const [translations, setTranslations] = useState<any>({});
 
     useEffect(() => {
-        // Load language from localStorage
-        const savedLang = localStorage.getItem('language') as Language;
-        if (savedLang) {
+        // Load language from localStorage on client only
+        const savedLang = localStorage.getItem('language');
+        if (savedLang === 'en' || savedLang === 'vi') {
             setLanguageState(savedLang);
-            if (typeof document !== 'undefined') {
-                document.documentElement.setAttribute('data-lang', savedLang);
-            }
+            document.documentElement.setAttribute('data-lang', savedLang);
         } else {
-            if (typeof document !== 'undefined') {
-                document.documentElement.setAttribute('data-lang', 'en');
-            }
+            document.documentElement.setAttribute('data-lang', 'en');
         }
     }, []);
-
-    useEffect(() => {
-        // Load translations
-        import(`../locales/${language}.json`).then((module) => {
-            setTranslations(module.default);
-        });
-    }, [language]);
 
     const setLanguage = (lang: Language) => {
         setLanguageState(lang);
         localStorage.setItem('language', lang);
-        if (typeof document !== 'undefined') {
-            document.documentElement.setAttribute('data-lang', lang);
-        }
+        document.documentElement.setAttribute('data-lang', lang);
     };
 
-    const t = (key: string): string => {
-        const keys = key.split('.');
-        let value = translations;
-
-        for (const k of keys) {
-            value = value?.[k];
-        }
-
-        return value || key;
-    };
+    // Memoize translation function
+    const t = useMemo(() => {
+        const currentTranslations = translations[language];
+        return (key: string): string => {
+            const value = getNestedValue(currentTranslations, key);
+            // Always return the English fallback if current language doesn't have the key
+            if (value === undefined) {
+                const fallback = getNestedValue(translations.en, key);
+                return fallback ?? key;
+            }
+            return value;
+        };
+    }, [language]);
 
     return (
         <LanguageContext.Provider value={{ language, setLanguage, t }}>

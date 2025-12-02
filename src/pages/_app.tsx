@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {AppProps} from 'next/app';
 import 'aos/dist/aos.css';
 import AOS from "aos";
@@ -20,7 +20,10 @@ import Script from "next/script";
 import { ToastContainer } from "react-toastify"
 
 export default function App({Component, pageProps}: AppProps) {
+    const [mounted, setMounted] = useState(false);
+
     useEffect(() => {
+        setMounted(true);
         AOS.init({
             easing: "ease-in-out",
             duration: 1000,
@@ -36,7 +39,7 @@ export default function App({Component, pageProps}: AppProps) {
                     <Component {...pageProps} />
                     <ToastContainer />
                     <Footer/>
-                    <FloatingButtons />
+                    {mounted && <FloatingButtons />}
 
                     <Script type="text/javascript" src="./js/jquery-3.6.0.min.js" strategy={"beforeInteractive"}/>
                     <Script type="text/javascript" src="./js/bootstrap.min.js"/>

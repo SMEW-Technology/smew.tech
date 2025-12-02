@@ -36,6 +36,15 @@ export default function Footer() {
                                         </figure>
                                     </Link>
                                     <p className="text-size-18 footer-text">{t('footer.tagline')}</p>
+                                    <a
+                                        href="./SMEW-Company-Profile-2025.pdf"
+                                        download="SMEW-Company-Profile-2025.pdf"
+                                        className="btn btn-outline-light btn-sm mb-3"
+                                        style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+                                    >
+                                        <i className="fa-solid fa-file-pdf"></i>
+                                        {t('footer.downloadProfile')}
+                                    </a>
                                     <div className="lower">
                                         <div className="lower-content">
                                             <figure className="icon">
@@ -77,6 +86,7 @@ export default function Footer() {
                                     </ul>
                                 </div>
                             </div>
+
                             <div className="col-lg-1 col-md-3 col-sm-6"> </div>
                             {/* Contact Form Column */}
                             <div className="col-lg-4 col-md-12 col-sm-12 ms-lg-auto">
